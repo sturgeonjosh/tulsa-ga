@@ -1,4 +1,4 @@
-const CACHE = 'tsc-ga-gh-v1';
+const CACHE = 'tsc-ga-gh-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './crest.png'];
 
 self.addEventListener('install', (e) => {
@@ -16,6 +16,7 @@ self.addEventListener('activate', (e) => {
 // Network first for the page (so fresh scores win), cache as offline fallback.
 self.addEventListener('fetch', (e) => {
   const req = e.request;
+  if (req.url.indexOf('data.json') !== -1) return;  // always live
   if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
   e.respondWith(
     fetch(req)

@@ -17,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
 
+
+<style>
 <style>
   :root {
     --ink:        #1f2c3e;
@@ -527,15 +529,28 @@
     .fx-score { grid-column: 3; text-align: right; }
   }
 </style>
+
+  .stale { color: var(--accent); }
+
+  .roundup-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .roundup-list li { padding-left: 14px; position: relative; }
+  .roundup-list li::before { content: ""; position: absolute; left: 0; top: .62em; width: 6px; height: 6px; background: var(--accent); border-radius: 1px; }
+
+  .notes-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .notes-list li { border-bottom: 1px dotted var(--line); padding-bottom: 10px; }
+  .notes-list li:last-child { border-bottom: 0; }
+  .notes-list a { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; }
+</style>
 </head>
 <body>
+
 <div class="wrap">
 
   <header>
     <img class="crest" src="./crest.png" alt="Tulsa Soccer Club crest" width="131" height="160">
     <p class="eyebrow">Girls Academy &middot; Frontier Conference &middot; U16 (2010/11)</p>
     <h1>Tulsa Soccer Club <span class="mark">GA 10/11</span></h1>
-    <p class="sub">Season hub for schedule, record, scores and conference table — refreshed every Monday morning from GotSport, where GA posts everything.</p>
+    <p class="sub">Schedule, scores, conference table and weekly notes. Reads its data fresh every time you open it.</p>
     <div class="rule"></div>
   </header>
 
@@ -548,196 +563,58 @@
   <div class="band">
     <div class="tile next">
       <span class="label" id="nextLabel">Next match</span>
-      <span class="value" id="nextOpp">vs HTX GA 10/11 North</span>
-      <span class="note" id="nextWhen">Sat Sep 5 &middot; 1:00 PM CT &middot; Scheels Sports Complex, JSC #2 Turf</span>
+      <span class="value" id="nextOpp">&mdash;</span>
+      <span class="note" id="nextWhen">&mdash;</span>
     </div>
     <div class="tile">
       <span class="label">Record</span>
-      <span class="value">1–1–0</span>
-      <span class="note">W–L–D &middot; both weekend scores reported, awaiting GotSport</span>
+      <span class="value" id="recordValue">&mdash;</span>
+      <span class="note" id="recordNote">W&ndash;L&ndash;D</span>
     </div>
     <div class="tile">
       <span class="label">Conference</span>
-      <span class="value">10th</span>
-      <span class="note">of 11 &middot; table excludes the unposted opener</span>
+      <span class="value" id="posValue">&mdash;</span>
+      <span class="note" id="posNote"></span>
     </div>
     <div class="tile">
       <span class="label">Matches</span>
-      <span class="value">20</span>
-      <span class="note">11 home &middot; 9 away &middot; through Feb 21</span>
+      <span class="value" id="matchCount">&mdash;</span>
+      <span class="note" id="matchNote"></span>
     </div>
   </div>
 
   <section>
     <div class="sec-head">
-      <h2>Full season schedule</h2>
-      <span class="hint">All times CT &middot; scores fill in weekly</span>
+      <h2>This week</h2>
+      <span class="hint" id="roundupWeek"></span>
     </div>
-
-    <div class="month">September 2026</div>
-    <div class="fixture" data-kickoff="2026-09-05T18:00:00Z" data-opp="HTX GA 10/11 North" data-ha="H" data-venue="Scheels Sports Complex · JSC #2 Turf">
-      <span class="fx-date">Sat 5<span>1:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">HTX GA 10/11 North<small>Scheels Sports Complex &middot; JSC #2 Turf &middot; <span class="tag">unofficial</span></small></span>
-      <span class="fx-score win">W 4–1</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-06T16:00:00Z" data-opp="HTX GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #10">
-      <span class="fx-date">Sun 6<span>11:00 AM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">HTX GA 10/11<small>Scheels Sports Complex &middot; JSC #10 &middot; <span class="tag">unofficial</span></small></span>
-      <span class="fx-score loss">L 0–3</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-12T18:00:00Z" data-opp="Dallas Surf GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sat 12<span>1:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Dallas Surf GA 10/11<small>Scheels Sports Complex &middot; JSC #1 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-13T18:00:00Z" data-opp="Atletico Dallas Youth GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #2 Turf">
-      <span class="fx-date">Sun 13<span>1:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Atletico Dallas Youth GA 10/11<small>Scheels Sports Complex &middot; JSC #2 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-19T14:00:00Z" data-opp="San Antonio City SC GA 10/11" data-ha="A" data-venue="Specht SC · Field 3 · San Antonio, TX">
-      <span class="fx-date">Sat 19<span>9:00 AM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">San Antonio City SC GA 10/11<small>Specht SC &middot; Field 3 &middot; San Antonio, TX</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-20T18:00:00Z" data-opp="RISE Soccer Club GA 10/11" data-ha="A" data-venue="RISE SC South Campus · SC 2">
-      <span class="fx-date">Sun 20<span>1:00 PM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">RISE Soccer Club GA 10/11<small>RISE SC South Campus &middot; SC 2</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-26T17:00:00Z" data-opp="Lou Fusz Athletic GA 10/11 White" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sat 26<span>12:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Lou Fusz Athletic GA 10/11 White<small>Scheels Sports Complex &middot; JSC #1 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-09-27T18:00:00Z" data-opp="Lou Fusz Athletic GA 10/11 Gold" data-ha="H" data-venue="Scheels Sports Complex · JSC #2 Turf">
-      <span class="fx-date">Sun 27<span>1:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Lou Fusz Athletic GA 10/11 Gold<small>Scheels Sports Complex &middot; JSC #2 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-
-    <div class="month">October 2026</div>
-    <div class="fixture" data-kickoff="2026-10-04T19:00:00Z" data-opp="Heir FC GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sun 4<span>2:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Heir FC GA 10/11<small>Scheels Sports Complex &middot; JSC #1 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-10-24T19:00:00Z" data-opp="RISE Soccer Club GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sat 24<span>2:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">RISE Soccer Club GA 10/11<small>Scheels Sports Complex &middot; JSC #1 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-10-25T16:00:00Z" data-opp="San Antonio City SC GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sun 25<span>11:00 AM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">San Antonio City SC GA 10/11<small>Scheels Sports Complex &middot; JSC #1 Turf</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-10-31T18:00:00Z" data-opp="Lou Fusz Athletic GA 10/11 Gold" data-ha="A" data-venue="Lou Fusz Soccer Complex · #7 · St. Louis, MO">
-      <span class="fx-date">Sat 31<span>1:00 PM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Lou Fusz Athletic GA 10/11 Gold<small>Lou Fusz Soccer Complex &middot; #7 &middot; St. Louis, MO</small></span>
-      <span class="fx-score">—</span>
-    </div>
-
-    <div class="month">November 2026</div>
-    <div class="fixture" data-kickoff="2026-11-01T19:00:00Z" data-opp="Lou Fusz Athletic GA 10/11 White" data-ha="A" data-venue="Lou Fusz Soccer Complex · #6 · St. Louis, MO">
-      <span class="fx-date">Sun 1<span>1:00 PM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Lou Fusz Athletic GA 10/11 White<small>Lou Fusz Soccer Complex &middot; #6 &middot; St. Louis, MO</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-11-14T14:00:00Z" data-opp="HTX GA 10/11 (Houston Showcase)" data-ha="A" data-venue="Gosling Sportsfields · Gosling #1 · Houston, TX">
-      <span class="fx-date">Sat 14<span>8:00 AM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">HTX GA 10/11 <span class="showcase">Houston Showcase</span><small>Gosling Sportsfields &middot; Gosling #1 &middot; Houston, TX</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-11-15T14:00:00Z" data-opp="HTX GA 10/11 North (Houston Showcase)" data-ha="A" data-venue="Bear Branch Sportsfields · Bear Branch #4">
-      <span class="fx-date">Sun 15<span>8:00 AM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">HTX GA 10/11 North <span class="showcase">Houston Showcase</span><small>Bear Branch Sportsfields &middot; Bear Branch #4</small></span>
-      <span class="fx-score">—</span>
-    </div>
-
-    <div class="month">December 2026</div>
-    <div class="fixture" data-kickoff="2026-12-12T16:00:00Z" data-opp="Atletico Dallas Youth GA 10/11" data-ha="A" data-venue="Dallas Soccer Park · #2">
-      <span class="fx-date">Sat 12<span>10:00 AM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Atletico Dallas Youth GA 10/11<small>Dallas Soccer Park &middot; #2</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2026-12-13T15:00:00Z" data-opp="Dallas Surf GA 10/11" data-ha="A" data-venue="Beacon Park · #3">
-      <span class="fx-date">Sun 13<span>9:00 AM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Dallas Surf GA 10/11<small>Beacon Park &middot; #3</small></span>
-      <span class="fx-score">—</span>
-    </div>
-
-    <div class="month">January &ndash; February 2027</div>
-    <div class="fixture" data-kickoff="2027-01-23T19:00:00Z" data-opp="Oklahoma Celtic GA 10/11" data-ha="H" data-venue="Scheels Sports Complex · JSC #1 Turf">
-      <span class="fx-date">Sat Jan 23<span>1:00 PM</span></span>
-      <span class="ha h">HOME</span>
-      <span class="fx-opp">Oklahoma Celtic GA 10/11<small>Scheels Sports Complex &middot; JSC #1 Turf &middot; in-state rivalry</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2027-02-14T18:00:00Z" data-opp="Heir FC GA 10/11" data-ha="A" data-venue="RE Good Sports Complex · Field 3">
-      <span class="fx-date">Sun Feb 14<span>12:00 PM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Heir FC GA 10/11<small>RE Good Sports Complex &middot; Field 3</small></span>
-      <span class="fx-score">—</span>
-    </div>
-    <div class="fixture" data-kickoff="2027-02-21T18:00:00Z" data-opp="Oklahoma Celtic GA 10/11" data-ha="A" data-venue="GRC-Norman · Field 17 (11v11)">
-      <span class="fx-date">Sun Feb 21<span>12:00 PM</span></span>
-      <span class="ha a">AWAY</span>
-      <span class="fx-opp">Oklahoma Celtic GA 10/11<small>GRC-Norman &middot; Field 17 (11v11)</small></span>
-      <span class="fx-score">—</span>
+    <div class="body-copy">
+      <ul class="roundup-list" id="roundup"></ul>
     </div>
   </section>
 
   <section>
     <div class="sec-head">
+      <h2>Full season schedule</h2>
+      <span class="hint">All times CT</span>
+    </div>
+    <div id="schedule"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
       <h2>Frontier U16 table</h2>
-      <span class="hint">Through Sun Sep 6 &middot; as posted on GotSport</span>
+      <span class="hint" id="standingsNote"></span>
     </div>
     <div class="scroller">
       <table>
         <thead>
           <tr>
-            <th>Club</th>
-            <th class="num">MP</th>
-            <th class="num">W</th>
-            <th class="num">L</th>
-            <th class="num">D</th>
-            <th class="num">GF</th>
-            <th class="num">GA</th>
-            <th class="num">GD</th>
-            <th class="num">PPG</th>
+            <th>Club</th><th class="num">MP</th><th class="num">W</th><th class="num">L</th><th class="num">D</th>
+            <th class="num">GF</th><th class="num">GA</th><th class="num">GD</th><th class="num">PPG</th>
           </tr>
         </thead>
-        <tbody>
-          <tr><td><span class="pos">1</span> Lou Fusz Athletic GA 10/11 Gold</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">8</td><td class="num">0</td><td class="num">8</td><td class="num">3.00</td></tr>
-          <tr><td><span class="pos">2</span> HTX GA 10/11</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">4</td><td class="num">1</td><td class="num">3</td><td class="num">3.00</td></tr>
-          <tr><td><span class="pos">3</span> Dallas Surf GA 10/11</td><td class="num">3</td><td class="num">2</td><td class="num">0</td><td class="num">1</td><td class="num">6</td><td class="num">2</td><td class="num">4</td><td class="num">2.33</td></tr>
-          <tr><td><span class="pos">4</span> Atletico Dallas Youth GA 10/11</td><td class="num">2</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">2.00</td></tr>
-          <tr><td><span class="pos">5</span> Oklahoma Celtic GA 10/11</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">7</td><td class="num">8</td><td class="num">-1</td><td class="num">1.50</td></tr>
-          <tr><td><span class="pos">6</span> San Antonio City SC GA 10/11</td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">1.00</td></tr>
-          <tr><td><span class="pos">7</span> Lou Fusz Athletic GA 10/11 White</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num">0</td><td class="num">4</td><td class="num">13</td><td class="num">-9</td><td class="num">1.00</td></tr>
-          <tr><td><span class="pos">8</span> RISE Soccer Club GA 10/11</td><td class="num">2</td><td class="num">0</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">-1</td><td class="num">0.50</td></tr>
-          <tr><td><span class="pos">9</span> Heir FC GA 10/11</td><td class="num">3</td><td class="num">0</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num">5</td><td class="num">-3</td><td class="num">0.33</td></tr>
-          <tr class="us"><td><span class="pos">10</span> Tulsa Soccer Club GA 10/11</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr>
-          <tr><td><span class="pos">11</span> HTX GA 10/11 North</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">0</td><td class="num">4</td><td class="num">6</td><td class="num">-2</td><td class="num">0.00</td></tr>
-        </tbody>
+        <tbody id="standings"></tbody>
       </table>
     </div>
   </section>
@@ -766,231 +643,241 @@
       <span class="hint">Goals &middot; assists &middot; honors &middot; commitments</span>
     </div>
     <div class="body-copy">
-      <p class="empty-note">Filled in each Monday with whatever clubs, GA and local press actually publish: goalscorers, assists, cards, player-of-week honors and college commitments, for Tulsa SC and around the conference.</p>
+      <ul class="notes-list" id="playerNotes"></ul>
     </div>
   </section>
 
   <div class="cols">
     <section>
       <div class="sec-head"><h2>Bench</h2></div>
-      <div class="body-copy">
-        <ul class="staff">
-          <li><strong>Nathan Doll</strong><span class="role">Coach</span></li>
-          <li><strong>Cyprian Hedrick</strong><span class="role">Coach</span></li>
-          <li><strong>Jacob Feener</strong><span class="role">Coach</span></li>
-          <li><strong>Eric Edwards</strong><span class="role">Manager</span></li>
-        </ul>
-      </div>
+      <div class="body-copy"><ul class="staff" id="staff"></ul></div>
     </section>
 
     <section>
-      <div class="sec-head"><h2>Reading this page</h2></div>
+      <div class="sec-head"><h2>How this works</h2></div>
       <div class="body-copy">
-        <p>Every Monday morning a scheduled run reopens GotSport, pulls weekend scores plus a refreshed table, and rewrites this page. Anything already played shows a score in place of a dash.</p>
-        <p>Player rosters, numbers and positions stay private on GotSport — GA does not publish them publicly. Goalscorers and standouts get added by hand when a recap names them.</p>
+        <p>Scores come from GotSport and only appear once a club enters them, which often lags a match by hours. Results marked <span class="tag">unofficial</span> were reported by a parent before GotSport caught up.</p>
+        <p>A scheduled job checks through the weekend and again Monday morning, writing what it finds into this page's data file. Player injuries stay off this page.</p>
       </div>
     </section>
   </div>
 
   <footer>
-    <span id="checkedLine" data-checked="2026-09-06T22:26:00Z">Last checked Sat Sep 5, 2:25 PM CT</span><br>
-    Scores come from GotSport and only appear once a club enters them &mdash; often hours after a match ends.<br>
-    GA league event 56497 &middot; Frontier U16 group 518560 &middot; Tulsa SC team 4287505
+    <span id="checkedLine">Loading&hellip;</span><br>
+    Source: GotSport GA league event 56497 &middot; Frontier U16 group 518560 &middot; Tulsa SC team 4287505
   </footer>
 
 </div>
 
 <script>
-  (function () {
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('./sw.js').catch(function () {});
-      });
-    }
-
-
-    // Live countdown — recomputed on every open, no rebuild needed.
-    var CT = 'America/Chicago';
-    var rows = Array.prototype.slice.call(document.querySelectorAll('.fixture[data-kickoff]'))
-      .map(function (el) { return { el: el, t: new Date(el.dataset.kickoff), opp: el.dataset.opp, ha: el.dataset.ha, venue: el.dataset.venue }; })
-      .sort(function (a, b) { return a.t - b.t; });
-
-    function fmtWhen(d) {
-      var day = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: CT });
-      var time = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: CT });
-      return day + ' \u00b7 ' + time + ' CT';
-    }
-
-    function countdown(ms) {
-      var mins = Math.round(ms / 60000);
-      if (mins < 60) return 'kickoff in ' + mins + ' min';
-      var hrs = Math.round(mins / 60);
-      if (hrs < 24) return 'kickoff in ' + hrs + (hrs === 1 ? ' hour' : ' hours');
-      var days = Math.round(hrs / 24);
-      if (days === 1) return 'tomorrow';
-      return 'in ' + days + ' days';
-    }
-
-    function refresh() {
-      var now = Date.now();
-      var next = null;
-      rows.forEach(function (r) {
-        var end = r.t.getTime() + 2 * 3600 * 1000;
-        r.el.classList.toggle('past', now > end);
-        r.el.classList.toggle('live', now >= r.t.getTime() && now <= end);
-        if (!next && now <= end) next = r;
-      });
-
-      var label = document.getElementById('nextLabel');
-      var opp = document.getElementById('nextOpp');
-      var when = document.getElementById('nextWhen');
-      if (!label || !opp || !when) return;
-
-      if (!next) {
-        label.textContent = 'Season complete';
-        opp.textContent = 'No matches left';
-        when.textContent = 'Frontier Conference play wrapped for 2026-27.';
-        return;
-      }
-
-      var delta = next.t.getTime() - now;
-      label.textContent = delta <= 0 ? 'Playing now' : 'Next match \u00b7 ' + countdown(delta);
-      opp.textContent = (next.ha === 'H' ? 'vs ' : 'at ') + next.opp;
-      when.textContent = fmtWhen(next.t) + ' \u00b7 ' + next.venue;
-    }
-
-
-  var FRONTIER = [
-    ["2026-08-29T11:00","Atletico Dallas","San Antonio City","1-1"],
-    ["2026-08-29T14:00","Dallas Surf","Heir FC","2-1"],
-    ["2026-08-30T10:00","Heir FC","San Antonio City","0-0"],
-    ["2026-08-30T13:00","Lou Fusz White","Lou Fusz Gold","0-8"],
-    ["2026-09-05T09:00","Dallas Surf","Lou Fusz White","4-1"],
-    ["2026-09-05T09:00","Heir FC","Lou Fusz Gold",""],
-    ["2026-09-05T13:00","Oklahoma Celtic","HTX","1-4"],
-    ["2026-09-05T13:00","Atletico Dallas","RISE SC","1-0"],
-    ["2026-09-05T13:00","Tulsa SC","HTX North","4-1","reported"],
-    ["2026-09-06T09:00","Atletico Dallas","Lou Fusz Gold",""],
-    ["2026-09-06T09:00","Dallas Surf","RISE SC","0-0"],
-    ["2026-09-06T11:00","Heir FC","Lou Fusz White","1-3"],
-    ["2026-09-06T11:00","Tulsa SC","HTX","0-3","reported"],
-    ["2026-09-06T12:00","Oklahoma Celtic","HTX North","6-4"],
-    ["2026-09-07T11:00","Heir FC","RISE SC",""],
-    ["2026-09-07T11:00","Dallas Surf","Lou Fusz Gold",""],
-    ["2026-09-07T13:00","Atletico Dallas","Lou Fusz White",""],
-    ["2026-09-12T11:00","Oklahoma Celtic","Atletico Dallas",""],
-    ["2026-09-12T12:00","RISE SC","San Antonio City",""],
-    ["2026-09-12T13:00","Tulsa SC","Dallas Surf",""],
-    ["2026-09-12T14:00","HTX","HTX North",""],
-    ["2026-09-13T13:00","Oklahoma Celtic","Dallas Surf",""],
-    ["2026-09-13T13:00","Tulsa SC","Atletico Dallas",""],
-    ["2026-09-13T15:00","HTX","Heir FC",""],
-    ["2026-09-19T09:00","San Antonio City","Tulsa SC",""],
-    ["2026-09-19T12:00","RISE SC","Oklahoma Celtic",""],
-    ["2026-09-19T13:00","Atletico Dallas","Heir FC",""],
-    ["2026-09-19T13:00","Lou Fusz Gold","HTX",""],
-    ["2026-09-19T15:00","Lou Fusz White","HTX North",""],
-    ["2026-09-20T11:00","Lou Fusz White","HTX",""],
-    ["2026-09-20T11:00","San Antonio City","Oklahoma Celtic",""],
-    ["2026-09-20T13:00","Lou Fusz Gold","HTX North",""],
-    ["2026-09-20T13:00","RISE SC","Tulsa SC",""]
-  ];
+(function () {
+  var CT = 'America/Chicago';
 
   function ctDate(local) {
     var off = (new Date(local + ':00Z') < new Date('2026-11-01T07:00:00Z')) ? '-05:00' : '-06:00';
     return new Date(local + ':00' + off);
   }
+  function dayLabel(d) {
+    return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: CT });
+  }
+  function timeLabel(d) {
+    return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: CT });
+  }
+  function monthLabel(d) {
+    return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: CT }).toUpperCase();
+  }
+  function el(tag, cls, html) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (html != null) n.innerHTML = html;
+    return n;
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
+    });
+  }
 
-  function renderFrontier() {
-    var results = document.getElementById('frontierResults');
-    var upcoming = document.getElementById('frontierUpcoming');
-    if (!results || !upcoming) return;
+  function countdown(ms) {
+    var mins = Math.round(ms / 60000);
+    if (mins < 60) return 'kickoff in ' + mins + ' min';
+    var hrs = Math.round(mins / 60);
+    if (hrs < 24) return 'kickoff in ' + hrs + (hrs === 1 ? ' hour' : ' hours');
+    var days = Math.round(hrs / 24);
+    return days === 1 ? 'tomorrow' : 'in ' + days + ' days';
+  }
 
-    var rows = FRONTIER.map(function (r) {
-      return { t: ctDate(r[0]), home: r[1], away: r[2], score: r[3], flag: r[4] || '' };
+  function render(data) {
+    var fixtures = (data.fixtures || []).map(function (f) {
+      return { t: ctDate(f.t), opp: f.opp, ha: f.ha, venue: f.venue, score: f.score || '', unofficial: !!f.unofficial };
+    }).sort(function (a, b) { return a.t - b.t; });
+
+    // Season schedule
+    var sched = document.getElementById('schedule');
+    sched.innerHTML = '';
+    var lastMonth = '';
+    var now = Date.now();
+    fixtures.forEach(function (f) {
+      var m = monthLabel(f.t);
+      if (m !== lastMonth) { sched.appendChild(el('div', 'month', m)); lastMonth = m; }
+      var end = f.t.getTime() + 2 * 3600 * 1000;
+      var cls = 'fixture' + (now > end ? ' past' : '') + (now >= f.t.getTime() && now <= end ? ' live' : '');
+      var row = el('div', cls);
+      var result = '';
+      if (f.score) {
+        var parts = f.score.split('-').map(Number);
+        var mark = parts[0] > parts[1] ? 'W' : (parts[0] < parts[1] ? 'L' : 'D');
+        var tone = mark === 'W' ? ' win' : (mark === 'L' ? ' loss' : '');
+        result = '<span class="fx-score' + tone + '">' + mark + ' ' + parts[0] + '\u2013' + parts[1] + '</span>';
+      } else {
+        result = '<span class="fx-score">&mdash;</span>';
+      }
+      row.innerHTML =
+        '<span class="fx-date">' + f.t.toLocaleDateString('en-US', { weekday: 'short', day: 'numeric', timeZone: CT }).toUpperCase() +
+        '<span>' + timeLabel(f.t) + '</span></span>' +
+        '<span class="ha ' + (f.ha === 'H' ? 'h">HOME' : 'a">AWAY') + '</span>' +
+        '<span class="fx-opp">' + esc(f.opp) + '<small>' + esc(f.venue || '') +
+        (f.unofficial ? ' &middot; <span class="tag">unofficial</span>' : '') + '</small></span>' + result;
+      sched.appendChild(row);
     });
 
-    var played = rows.filter(function (r) { return r.score; }).sort(function (a, b) { return b.t - a.t; }).slice(0, 10);
-    var next = rows.filter(function (r) { return !r.score; }).sort(function (a, b) { return a.t - b.t; }).slice(0, 12);
-
-    function dayLabel(d) {
-      return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'America/Chicago' });
+    // Next match tile
+    var next = null;
+    fixtures.forEach(function (f) {
+      if (!next && now <= f.t.getTime() + 2 * 3600 * 1000) next = f;
+    });
+    if (next) {
+      var delta = next.t.getTime() - now;
+      document.getElementById('nextLabel').textContent = delta <= 0 ? 'Playing now' : 'Next match \u00b7 ' + countdown(delta);
+      document.getElementById('nextOpp').textContent = (next.ha === 'H' ? 'vs ' : 'at ') + next.opp;
+      document.getElementById('nextWhen').textContent = dayLabel(next.t) + ' \u00b7 ' + timeLabel(next.t) + ' CT \u00b7 ' + (next.venue || '');
+    } else {
+      document.getElementById('nextLabel').textContent = 'Season complete';
+      document.getElementById('nextOpp').textContent = 'No matches left';
+      document.getElementById('nextWhen').textContent = '';
     }
-    function timeLabel(d) {
-      return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
-    }
-    function isUs(r) { return r.home === 'Tulsa SC' || r.away === 'Tulsa SC'; }
 
-    function draw(target, list, withScore) {
+    // Tiles
+    var rec = data.record || {};
+    document.getElementById('recordValue').textContent = [rec.w || 0, rec.l || 0, rec.d || 0].join('\u2013');
+    document.getElementById('recordNote').textContent = 'W\u2013L\u2013D' + (rec.note ? ' \u00b7 ' + rec.note : '');
+    var pos = data.position || {};
+    document.getElementById('posValue').textContent = pos.rank ? pos.rank + (['th','st','nd','rd'][(pos.rank % 100 - 20) % 10] || ['th','st','nd','rd'][pos.rank] || 'th') : '\u2014';
+    document.getElementById('posNote').textContent = (pos.of ? 'of ' + pos.of : '') + (pos.note ? ' \u00b7 ' + pos.note : '');
+    var home = fixtures.filter(function (f) { return f.ha === 'H'; }).length;
+    document.getElementById('matchCount').textContent = fixtures.length;
+    document.getElementById('matchNote').textContent = home + ' home \u00b7 ' + (fixtures.length - home) + ' away';
+
+    // Standings
+    var tb = document.getElementById('standings');
+    tb.innerHTML = '';
+    (data.standings || []).forEach(function (r) {
+      var tr = el('tr', /Tulsa/.test(r.team) ? 'us' : '');
+      tr.innerHTML = '<td><span class="pos">' + r.pos + '</span> ' + esc(r.team) + '</td>' +
+        [r.mp, r.w, r.l, r.d, r.gf, r.ga, r.gd, r.ppg].map(function (v) {
+          return '<td class="num">' + v + '</td>';
+        }).join('');
+      tb.appendChild(tr);
+    });
+    document.getElementById('standingsNote').textContent = data.standingsNote || '';
+
+    // Conference lists
+    var rows = (data.league || []).map(function (r) {
+      return { t: ctDate(r.t), home: r.home, away: r.away, score: r.score || '', unofficial: !!r.unofficial };
+    });
+    function drawLeague(target, list, withScore) {
       target.innerHTML = '';
-      if (!list.length) {
-        target.innerHTML = '<div class="body-copy"><p class="empty-note">Nothing posted yet.</p></div>';
-        return;
-      }
+      if (!list.length) { target.innerHTML = '<div class="body-copy"><p class="empty-note">Nothing posted yet.</p></div>'; return; }
       var lastDay = '';
       list.forEach(function (r) {
         var day = dayLabel(r.t);
-        if (day !== lastDay) {
-          var h = document.createElement('div');
-          h.className = 'league-day';
-          h.textContent = day;
-          target.appendChild(h);
-          lastDay = day;
-        }
-        var row = document.createElement('div');
-        row.className = 'league-row' + (isUs(r) ? ' us' : '');
-        var right = withScore ? r.score.replace('-', ' \u2013 ') : timeLabel(r.t);
-        if (withScore && r.flag) right += ' <span class="tag">unofficial</span>';
-        row.innerHTML = '<span class="league-teams">' + r.home + ' <em>v</em> ' + r.away + '</span>' +
+        if (day !== lastDay) { target.appendChild(el('div', 'league-day', day)); lastDay = day; }
+        var right = withScore ? r.score.replace('-', ' \u2013 ') + (r.unofficial ? ' <span class="tag">unofficial</span>' : '') : timeLabel(r.t);
+        var row = el('div', 'league-row' + (/Tulsa/.test(r.home + r.away) ? ' us' : ''));
+        row.innerHTML = '<span class="league-teams">' + esc(r.home) + ' <em>v</em> ' + esc(r.away) + '</span>' +
                         '<span class="league-meta">' + right + '</span>';
         target.appendChild(row);
       });
     }
+    drawLeague(document.getElementById('frontierResults'),
+      rows.filter(function (r) { return r.score; }).sort(function (a, b) { return b.t - a.t; }).slice(0, 10), true);
+    drawLeague(document.getElementById('frontierUpcoming'),
+      rows.filter(function (r) { return !r.score; }).sort(function (a, b) { return a.t - b.t; }).slice(0, 12), false);
 
-    draw(results, played, true);
-    draw(upcoming, next, false);
-  }
+    // Roundup
+    var ru = data.roundup || {};
+    document.getElementById('roundupWeek').textContent = ru.week || '';
+    var rl = document.getElementById('roundup');
+    rl.innerHTML = '';
+    (ru.lines && ru.lines.length ? ru.lines : ['Nothing new yet this week.']).forEach(function (line) {
+      rl.appendChild(el('li', null, esc(line)));
+    });
 
-  renderFrontier();
-
-  var checked = document.getElementById('checkedLine');
-  if (checked && checked.dataset.checked) {
-    var when = new Date(checked.dataset.checked);
-    var label = when.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
-    var mins = Math.max(0, Math.round((Date.now() - when.getTime()) / 60000));
-    var ago = mins < 2 ? 'just now' : mins < 60 ? mins + ' min ago'
-      : (mins < 1440 ? Math.round(mins / 60) + (Math.round(mins / 60) === 1 ? ' hour ago' : ' hours ago')
-      : Math.round(mins / 1440) + (Math.round(mins / 1440) === 1 ? ' day ago' : ' days ago'));
-    checked.textContent = 'Last checked ' + label + ' CT \u00b7 ' + ago;
-  }
-
-
-    refresh();
-    setInterval(refresh, 60000);
-    document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
-
-    var standalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-    var hint = document.getElementById('installHint');
-    var how = document.getElementById('installHow');
-    var dismiss = document.getElementById('installDismiss');
-    var stored = null;
-    try { stored = localStorage.getItem('tsc-install-dismissed'); } catch (e) {}
-
-    if (!standalone && !stored && hint) {
-      var ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
-      how.textContent = ios
-        ? 'Tap Share, then "Add to Home Screen" — it opens like an app, works offline at the field.'
-        : 'Open your browser menu and choose "Install app" or "Add to Home screen".';
-      hint.classList.add('show');
-    }
-
-    if (dismiss) {
-      dismiss.addEventListener('click', function () {
-        hint.classList.remove('show');
-        try { localStorage.setItem('tsc-install-dismissed', '1'); } catch (e) {}
+    // Player notes
+    var pn = document.getElementById('playerNotes');
+    pn.innerHTML = '';
+    if (data.notes && data.notes.length) {
+      data.notes.forEach(function (n) {
+        pn.appendChild(el('li', null, esc(n.text) +
+          (n.source ? '<br><a href="' + esc(n.source) + '" target="_blank" rel="noopener">source</a>' : '')));
       });
+    } else {
+      pn.appendChild(el('li', 'empty-note', esc(data.notesFallback || 'Nothing published yet.')));
     }
-  })();
+
+    // Staff
+    var st = document.getElementById('staff');
+    st.innerHTML = '';
+    (data.staff || []).forEach(function (p) {
+      st.appendChild(el('li', null, '<strong>' + esc(p.name) + '</strong><span class="role">' + esc(p.role) + '</span>'));
+    });
+
+    // Freshness
+    var checked = document.getElementById('checkedLine');
+    if (data.updated) {
+      var when = new Date(data.updated);
+      var mins = Math.max(0, Math.round((Date.now() - when.getTime()) / 60000));
+      var ago = mins < 2 ? 'just now' : mins < 60 ? mins + ' min ago'
+        : mins < 1440 ? Math.round(mins / 60) + (Math.round(mins / 60) === 1 ? ' hour ago' : ' hours ago')
+        : Math.round(mins / 1440) + (Math.round(mins / 1440) === 1 ? ' day ago' : ' days ago');
+      checked.textContent = 'Data checked ' + when.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: CT }) + ' CT \u00b7 ' + ago;
+      if (mins > 2880) checked.className = 'stale';
+    }
+  }
+
+  function load() {
+    fetch('./data.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(render)
+      .catch(function () {
+        document.getElementById('checkedLine').textContent = 'Could not load data. Check back when you have signal.';
+      });
+  }
+
+  load();
+  setInterval(load, 15 * 60 * 1000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) load(); });
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('./sw.js').catch(function () {}); });
+  }
+
+  var standalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  var hint = document.getElementById('installHint');
+  var stored = null;
+  try { stored = localStorage.getItem('tsc-install-dismissed'); } catch (e) {}
+  if (!standalone && !stored && hint) {
+    document.getElementById('installHow').textContent = /iphone|ipad|ipod/i.test(navigator.userAgent)
+      ? 'Tap Share, then "Add to Home Screen" \u2014 it opens like an app and works offline at the field.'
+      : 'Open your browser menu and choose "Install app" or "Add to Home screen".';
+    hint.classList.add('show');
+  }
+  var dismiss = document.getElementById('installDismiss');
+  if (dismiss) dismiss.addEventListener('click', function () {
+    hint.classList.remove('show');
+    try { localStorage.setItem('tsc-install-dismissed', '1'); } catch (e) {}
+  });
+})();
 </script>
 </body>
 </html>
