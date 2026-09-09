@@ -19,7 +19,6 @@
 
 
 <style>
-<style>
   :root {
     --ink:        #1f2c3e;
     --ground:     #f4f6f9;
@@ -528,7 +527,6 @@
     .fixture { grid-template-columns: 66px 30px 1fr; row-gap: 6px; }
     .fx-score { grid-column: 3; text-align: right; }
   }
-</style>
 
   .stale { color: var(--accent); }
 
@@ -540,6 +538,55 @@
   .notes-list li { border-bottom: 1px dotted var(--line); padding-bottom: 10px; }
   .notes-list li:last-child { border-bottom: 0; }
   .notes-list a { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11.5px; }
+
+  /* ---- phone layout ---- */
+  .team-short { display: none; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 18px 14px 56px; gap: 18px; }
+
+    header { display: grid; grid-template-columns: 1fr 64px; column-gap: 14px; align-items: start; }
+    .crest { position: static; width: 64px; grid-column: 2; grid-row: 1 / span 3; justify-self: end; }
+    header .eyebrow, header h1, header .sub { padding-right: 0; grid-column: 1; }
+    header .rule { grid-column: 1 / -1; margin-top: 12px; }
+    .eyebrow { font-size: 10px; }
+    h1 { font-size: 40px; line-height: .95; }
+    header .sub { font-size: 14.5px; margin-top: 8px; }
+
+    .band { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .tile { padding: 13px 14px; }
+    .tile.next { grid-column: 1 / -1; }
+    .tile .value { font-size: 32px; }
+    .tile.next .value { font-size: 23px; }
+    .tile .note { font-size: 12.5px; }
+
+    .sec-head { padding: 12px 14px; }
+    .sec-head h2 { font-size: 19px; }
+    .sec-head .hint { font-size: 10px; width: 100%; }
+
+    .month, .league-day { padding-left: 14px; padding-right: 14px; }
+    .fixture { grid-template-columns: 64px 1fr auto; column-gap: 10px; padding: 11px 14px; }
+    .fixture .ha { grid-column: 1; grid-row: 2; font-size: 9.5px; padding: 2px 0; margin-top: 2px; }
+    .fx-date { font-size: 16px; white-space: nowrap; }
+    .fx-date span { font-size: 10px; }
+    .fx-opp { grid-column: 2; grid-row: 1 / span 2; font-size: 14.5px; }
+    .fx-opp small { font-size: 10.5px; white-space: normal; }
+    .fx-score { grid-column: 3; grid-row: 1 / span 2; align-self: center; font-size: 20px; text-align: right; }
+
+    table { font-size: 13px; }
+    thead th, tbody td { padding: 8px 8px; }
+    .team-full { display: none; }
+    .team-short { display: inline; }
+    .pos { font-size: 11px; }
+
+    .league-row { padding: 9px 14px; font-size: 13.5px; }
+    .league-meta { font-size: 12px; }
+
+    .body-copy { padding: 14px; font-size: 14.5px; }
+    .install-hint { padding: 12px 14px; font-size: 13.5px; }
+    .install-hint button { margin-left: 0; }
+    footer { font-size: 10.5px; }
+  }
 </style>
 </head>
 <body>
@@ -698,6 +745,10 @@
     });
   }
 
+  function shortTeam(name) {
+    return name.replace(' Athletic', '').replace('Soccer Club', 'SC').replace(' Youth', '').replace(' GA 10/11', '').replace('GA10/11', '').trim();
+  }
+
   function countdown(ms) {
     var mins = Math.round(ms / 60000);
     if (mins < 60) return 'kickoff in ' + mins + ' min';
@@ -733,7 +784,7 @@
         result = '<span class="fx-score">&mdash;</span>';
       }
       row.innerHTML =
-        '<span class="fx-date">' + f.t.toLocaleDateString('en-US', { weekday: 'short', day: 'numeric', timeZone: CT }).toUpperCase() +
+        '<span class="fx-date">' + f.t.toLocaleDateString('en-US', { weekday: 'short', timeZone: CT }).toUpperCase() + ' ' + f.t.toLocaleDateString('en-US', { day: 'numeric', timeZone: CT }) +
         '<span>' + timeLabel(f.t) + '</span></span>' +
         '<span class="ha ' + (f.ha === 'H' ? 'h">HOME' : 'a">AWAY') + '</span>' +
         '<span class="fx-opp">' + esc(f.opp) + '<small>' + esc(f.venue || '') +
@@ -773,7 +824,7 @@
     tb.innerHTML = '';
     (data.standings || []).forEach(function (r) {
       var tr = el('tr', /Tulsa/.test(r.team) ? 'us' : '');
-      tr.innerHTML = '<td><span class="pos">' + r.pos + '</span> ' + esc(r.team) + '</td>' +
+      tr.innerHTML = '<td><span class="pos">' + r.pos + '</span> <span class="team-full">' + esc(r.team) + '</span><span class="team-short">' + esc(shortTeam(r.team)) + '</span></td>' +
         [r.mp, r.w, r.l, r.d, r.gf, r.ga, r.gd, r.ppg].map(function (v) {
           return '<td class="num">' + v + '</td>';
         }).join('');
