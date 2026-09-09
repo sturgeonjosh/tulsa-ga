@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-09T00:25:00Z",
+ "updated": "2026-09-09T01:09:52Z",
  "team": "Tulsa Soccer Club GA 10/11",
  "record": {
   "w": 1,
   "l": 1,
   "d": 0,
-  "note": "both opening-weekend results now official on GotSport"
+  "note": "both results now posted on GotSport"
  },
  "position": {
   "rank": 5,
   "of": 11,
-  "note": "Tulsa have played fewer matches than most of the conference"
+  "note": "tied on 1.50 points per game with Oklahoma Celtic"
  },
  "standingsNote": "Through Mon Sep 7 · as posted on GotSport",
  "fixtures": [
@@ -547,9 +547,10 @@
  "roundup": {
   "week": "Week of Sep 7",
   "lines": [
-   "GotSport has now posted both opening-weekend results: the 4-1 win over HTX North and the 0-3 loss to HTX. Tulsa sit 5th of 11 in Frontier U16 on 1.50 points per game, with two matches played to most teams' four.",
-   "Lou Fusz Gold are running away with it early: four wins, 19 scored, none conceded, including a 3-0 win at Dallas Surf and a 7-0 win over Heir on Sunday.",
-   "Next up: Dallas Surf at home, Saturday Sep 12 at 1:00 PM. Surf come in on the back of that Lou Fusz Gold loss, sitting 4th."
+   "GotSport has posted both opening-weekend results: 4-1 over HTX North on Saturday and a 3-0 loss to HTX on Sunday. The table now counts them.",
+   "That moves Tulsa from bottom of the group up to 5th of 11 on 1.50 points per game, level with Oklahoma Celtic and just behind Dallas Surf and Atletico Dallas.",
+   "Lou Fusz Gold have pulled clear at the top: four wins, 19 scored, none conceded, including 7-0 over Heir and 3-0 at Dallas Surf.",
+   "Next up: Dallas Surf at home, Saturday Sep 12 at 1:00 PM, JSC #1 Turf."
   ]
  },
  "staff": [
