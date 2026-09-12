@@ -883,16 +883,26 @@
       st.appendChild(el('li', null, '<strong>' + esc(p.name) + '</strong><span class="role">' + esc(p.role) + '</span>'));
     });
 
-    // Freshness
+    // Freshness: 'checked' is stamped by every run, 'updated' only when scores or tables changed
     var checked = document.getElementById('checkedLine');
-    if (data.updated) {
-      var when = new Date(data.updated);
-      var mins = Math.max(0, Math.round((Date.now() - when.getTime()) / 60000));
-      var ago = mins < 2 ? 'just now' : mins < 60 ? mins + ' min ago'
+    function fmt(iso) {
+      return new Date(iso).toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: CT }) + ' CT';
+    }
+    function agoText(iso) {
+      var mins = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+      return mins < 2 ? 'just now' : mins < 60 ? mins + ' min ago'
         : mins < 1440 ? Math.round(mins / 60) + (Math.round(mins / 60) === 1 ? ' hour ago' : ' hours ago')
         : Math.round(mins / 1440) + (Math.round(mins / 1440) === 1 ? ' day ago' : ' days ago');
-      checked.textContent = 'Data checked ' + when.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: CT }) + ' CT \u00b7 ' + ago;
-      if (mins > 2880) checked.className = 'stale';
+    }
+    var lastCheck = data.checked || data.updated;
+    if (lastCheck) {
+      var line = 'Last checked ' + fmt(lastCheck) + ' \u00b7 ' + agoText(lastCheck);
+      if (data.updated && data.checked && data.updated !== data.checked) {
+        line += ' \u00b7 scores last changed ' + fmt(data.updated);
+      }
+      checked.textContent = line;
+      var staleMins = (Date.now() - new Date(lastCheck).getTime()) / 60000;
+      checked.className = staleMins > 1560 ? 'stale' : '';
     }
   }
 

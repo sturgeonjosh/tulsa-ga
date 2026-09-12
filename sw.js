@@ -1,4 +1,4 @@
-const CACHE = 'tsc-ga-gh-v3';
+const CACHE = 'tsc-ga-gh-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './crest.png'];
 
 self.addEventListener('install', (e) => {
