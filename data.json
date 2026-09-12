@@ -1,6 +1,5 @@
 {
- "checked": "2026-09-12T21:08:52Z",
- "updated": "2026-09-09T01:09:52Z",
+ "updated": "2026-09-12T22:09:00Z",
  "team": "Tulsa Soccer Club GA 10/11",
  "record": {
   "w": 1,
@@ -11,9 +10,9 @@
  "position": {
   "rank": 5,
   "of": 11,
-  "note": "tied on 1.50 points per game with Oklahoma Celtic"
+  "note": "1.50 points per game, a step behind Dallas Surf on 1.75"
  },
- "standingsNote": "Through Mon Sep 7 · as posted on GotSport",
+ "standingsNote": "Through Sat Sep 12 · as posted on GotSport",
  "fixtures": [
   {
    "t": "2026-09-05T13:00",
@@ -300,7 +299,7 @@
    "t": "2026-09-12T11:00",
    "home": "Oklahoma Celtic",
    "away": "Atletico Dallas",
-   "score": "",
+   "score": "2-3",
    "unofficial": false
   },
   {
@@ -437,14 +436,14 @@
   {
    "pos": 3,
    "team": "Atletico Dallas Youth GA 10/11",
-   "mp": 4,
-   "w": 2,
+   "mp": 5,
+   "w": 3,
    "l": 1,
    "d": 1,
-   "gf": 4,
-   "ga": 2,
-   "gd": 2,
-   "ppg": "1.75"
+   "gf": 7,
+   "ga": 4,
+   "gd": 3,
+   "ppg": "2.00"
   },
   {
    "pos": 4,
@@ -472,18 +471,6 @@
   },
   {
    "pos": 6,
-   "team": "Oklahoma Celtic GA 10/11",
-   "mp": 2,
-   "w": 1,
-   "l": 1,
-   "d": 0,
-   "gf": 7,
-   "ga": 8,
-   "gd": -1,
-   "ppg": "1.50"
-  },
-  {
-   "pos": 7,
    "team": "San Antonio City SC GA 10/11",
    "mp": 2,
    "w": 0,
@@ -492,6 +479,18 @@
    "gf": 1,
    "ga": 1,
    "gd": 0,
+   "ppg": "1.00"
+  },
+  {
+   "pos": 7,
+   "team": "Oklahoma Celtic GA 10/11",
+   "mp": 3,
+   "w": 1,
+   "l": 2,
+   "d": 0,
+   "gf": 9,
+   "ga": 11,
+   "gd": -2,
    "ppg": "1.00"
   },
   {
@@ -571,5 +570,6 @@
    "name": "Eric Edwards",
    "role": "Manager"
   }
- ]
+ ],
+ "checked": "2026-09-12T22:09:00Z"
 }
