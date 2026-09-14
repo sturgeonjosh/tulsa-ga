@@ -1,18 +1,18 @@
 {
- "updated": "2026-09-13T22:15:00Z",
+ "updated": "2026-09-14T00:10:00Z",
  "team": "Tulsa Soccer Club GA 10/11",
  "record": {
   "w": 2,
   "l": 1,
   "d": 0,
-  "note": "Sunday's home match with Atletico Dallas not posted on GotSport yet"
+  "note": "Sep 12 win over Dallas Surf now posted on GotSport"
  },
  "position": {
   "rank": 4,
   "of": 11,
-  "note": "holding 4th; level on 2.00 points per game with Atletico Dallas"
+  "note": "up one spot; level on 2.00 points per game with Atletico Dallas"
  },
- "standingsNote": "Through Sun Sep 13 · as posted on GotSport",
+ "standingsNote": "Through Sat Sep 12 · Sunday Sep 13 results not yet posted on GotSport",
  "fixtures": [
   {
    "t": "2026-09-05T13:00",
@@ -571,5 +571,5 @@
    "role": "Manager"
   }
  ],
- "checked": "2026-09-13T23:10:00Z"
+ "checked": "2026-09-14T00:10:00Z"
 }
