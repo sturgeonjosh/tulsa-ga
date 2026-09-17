@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-16T01:08:00Z",
+  "updated": "2026-09-17T01:08:49Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
     "l": 2,
     "d": 0,
-    "note": "Sunday Sep 13 home loss to Atletico Dallas now posted on GotSport"
+    "note": "Sunday Sep 13 vs Atletico Dallas now posted on GotSport as a 0-2 home loss"
   },
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "down to 6th on 1.50 points per game after the Atletico Dallas result was entered"
+    "note": "slipped to 6th; 1.50 points per game, four matches played"
   },
-  "standingsNote": "Through Sun Sep 13 · as posted on GotSport",
+  "standingsNote": "Through Sun Sep 13 \u00b7 as posted on GotSport",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
       "opp": "HTX GA 10/11 North",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #11",
+      "venue": "Scheels Sports Complex \u00b7 JSC #11",
       "score": "4-1",
       "unofficial": false
     },
@@ -26,7 +26,7 @@
       "t": "2026-09-06T11:00",
       "opp": "HTX GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #10",
+      "venue": "Scheels Sports Complex \u00b7 JSC #10",
       "score": "0-3",
       "unofficial": false
     },
@@ -34,7 +34,7 @@
       "t": "2026-09-12T13:00",
       "opp": "Dallas Surf GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "2-0",
       "unofficial": false
     },
@@ -42,7 +42,7 @@
       "t": "2026-09-13T13:00",
       "opp": "Atletico Dallas Youth GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #2 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #2 Turf",
       "score": "0-2",
       "unofficial": false
     },
@@ -50,7 +50,7 @@
       "t": "2026-09-19T09:00",
       "opp": "San Antonio City SC GA 10/11",
       "ha": "A",
-      "venue": "Specht SC · Field 3 · San Antonio, TX",
+      "venue": "Specht SC \u00b7 Field 3 \u00b7 San Antonio, TX",
       "score": "",
       "unofficial": false
     },
@@ -58,7 +58,7 @@
       "t": "2026-09-20T13:00",
       "opp": "RISE Soccer Club GA 10/11",
       "ha": "A",
-      "venue": "RISE SC South Campus · SC 2",
+      "venue": "RISE SC South Campus \u00b7 SC 2",
       "score": "",
       "unofficial": false
     },
@@ -66,7 +66,7 @@
       "t": "2026-09-26T12:00",
       "opp": "Lou Fusz Athletic GA 10/11 White",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "",
       "unofficial": false
     },
@@ -74,7 +74,7 @@
       "t": "2026-09-27T13:00",
       "opp": "Lou Fusz Athletic GA 10/11 Gold",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #2 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #2 Turf",
       "score": "",
       "unofficial": false
     },
@@ -82,7 +82,7 @@
       "t": "2026-10-04T14:00",
       "opp": "Heir FC GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "",
       "unofficial": false
     },
@@ -90,7 +90,7 @@
       "t": "2026-10-24T14:00",
       "opp": "RISE Soccer Club GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "",
       "unofficial": false
     },
@@ -98,7 +98,7 @@
       "t": "2026-10-25T11:00",
       "opp": "San Antonio City SC GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "",
       "unofficial": false
     },
@@ -106,7 +106,7 @@
       "t": "2026-10-31T13:00",
       "opp": "Lou Fusz Athletic GA 10/11 Gold",
       "ha": "A",
-      "venue": "Lou Fusz Soccer Complex · #7 · St. Louis, MO",
+      "venue": "Lou Fusz Soccer Complex \u00b7 #7 \u00b7 St. Louis, MO",
       "score": "",
       "unofficial": false
     },
@@ -114,7 +114,7 @@
       "t": "2026-11-01T13:00",
       "opp": "Lou Fusz Athletic GA 10/11 White",
       "ha": "A",
-      "venue": "Lou Fusz Soccer Complex · #6 · St. Louis, MO",
+      "venue": "Lou Fusz Soccer Complex \u00b7 #6 \u00b7 St. Louis, MO",
       "score": "",
       "unofficial": false
     },
@@ -122,7 +122,7 @@
       "t": "2026-11-14T08:00",
       "opp": "HTX GA 10/11 (Houston Showcase)",
       "ha": "A",
-      "venue": "Gosling Sportsfields · Gosling #1 · Houston, TX",
+      "venue": "Gosling Sportsfields \u00b7 Gosling #1 \u00b7 Houston, TX",
       "score": "",
       "unofficial": false
     },
@@ -130,7 +130,7 @@
       "t": "2026-11-15T08:00",
       "opp": "HTX GA 10/11 North (Houston Showcase)",
       "ha": "A",
-      "venue": "Bear Branch Sportsfields · #4 · Houston, TX",
+      "venue": "Bear Branch Sportsfields \u00b7 #4 \u00b7 Houston, TX",
       "score": "",
       "unofficial": false
     },
@@ -138,7 +138,7 @@
       "t": "2026-12-12T10:00",
       "opp": "Atletico Dallas Youth GA 10/11",
       "ha": "A",
-      "venue": "Dallas Soccer Park · #2",
+      "venue": "Dallas Soccer Park \u00b7 #2",
       "score": "",
       "unofficial": false
     },
@@ -146,7 +146,7 @@
       "t": "2026-12-13T09:00",
       "opp": "Dallas Surf GA 10/11",
       "ha": "A",
-      "venue": "Beacon Park · #3",
+      "venue": "Beacon Park \u00b7 #3",
       "score": "",
       "unofficial": false
     },
@@ -154,15 +154,15 @@
       "t": "2027-01-23T13:00",
       "opp": "Oklahoma Celtic GA 10/11",
       "ha": "H",
-      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "venue": "Scheels Sports Complex \u00b7 JSC #1 Turf",
       "score": "",
       "unofficial": false
     },
     {
-      "t": "2027-02-14T12:00",
+      "t": "2027-02-13T12:00",
       "opp": "Heir FC GA 10/11",
       "ha": "A",
-      "venue": "RE Good Sports Complex · Field 3",
+      "venue": "RE Good Sports Complex \u00b7 Field 3",
       "score": "",
       "unofficial": false
     },
@@ -170,7 +170,7 @@
       "t": "2027-02-21T12:00",
       "opp": "Oklahoma Celtic GA 10/11",
       "ha": "A",
-      "venue": "GRC-Norman · Field 17 (11v11)",
+      "venue": "GRC-Norman \u00b7 Field 17 (11v11)",
       "score": "",
       "unofficial": false
     }
@@ -547,11 +547,12 @@
   "roundup": {
     "week": "Week of Sep 14",
     "lines": [
-      "GotSport has now posted Sunday's home game with Atletico Dallas: Tulsa lost 0-2.",
-      "That makes it 2 wins and 2 losses from four, and drops Tulsa from 4th to 6th of 11 on 1.50 points per game.",
-      "Saturday's 2-0 win over Dallas Surf still stands as the high point of the weekend.",
-      "Elsewhere, the RISE vs San Antonio City score was corrected to 1-2, and Oklahoma Celtic lost 2-3 at home to Dallas Surf.",
-      "Next up: away at San Antonio City, Saturday Sep 19 at 9:00 AM, Specht SC Field 3."
+      "GotSport has now posted Sunday's home game: Tulsa 0-2 Atletico Dallas, so the weekend ends one win, one loss.",
+      "That drops Tulsa to 6th of 11 on 1.50 points per game, four played, goals level at 6-6.",
+      "Atletico Dallas move up to 3rd with the win. Dallas Surf beat Oklahoma Celtic 3-2 on Sunday and sit 5th.",
+      "The RISE vs San Antonio City score from Sep 12 was corrected on GotSport to 1-2, not 1-5.",
+      "Next up: away at San Antonio City, Saturday Sep 19 at 9:00 AM, Specht SC Field 3. Then at RISE on Sunday.",
+      "Note: the away game at Heir FC moved to Saturday Feb 13, 2027 at noon."
     ]
   },
   "staff": [
@@ -572,5 +573,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-16T01:08:00Z"
+  "checked": "2026-09-17T01:08:49Z"
 }
