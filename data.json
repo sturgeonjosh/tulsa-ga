@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T01:05:55Z",
+  "updated": "2026-09-20T04:07:56Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
@@ -8,9 +8,9 @@
     "note": "Saturday Sep 19 at San Antonio City posted on GotSport as a 2-1 away loss"
   },
   "position": {
-    "rank": 6,
+    "rank": 7,
     "of": 11,
-    "note": "holding 6th; 1.20 points per game, five matches played"
+    "note": "slipped to 7th; level with Oklahoma Celtic on 1.20 points per game, behind on goal difference"
   },
   "standingsNote": "Through Sat Sep 19 · as posted on GotSport",
   "fixtures": [
@@ -355,7 +355,7 @@
       "t": "2026-09-19T12:00",
       "home": "RISE SC",
       "away": "Oklahoma Celtic",
-      "score": "",
+      "score": "1-4",
       "unofficial": false
     },
     {
@@ -471,6 +471,18 @@
     },
     {
       "pos": 6,
+      "team": "Oklahoma Celtic GA 10/11",
+      "mp": 5,
+      "w": 2,
+      "l": 3,
+      "d": 0,
+      "gf": 15,
+      "ga": 15,
+      "gd": 0,
+      "ppg": "1.20"
+    },
+    {
+      "pos": 7,
       "team": "Tulsa Soccer Club GA 10/11",
       "mp": 5,
       "w": 2,
@@ -480,18 +492,6 @@
       "ga": 8,
       "gd": -1,
       "ppg": "1.20"
-    },
-    {
-      "pos": 7,
-      "team": "Oklahoma Celtic GA 10/11",
-      "mp": 4,
-      "w": 1,
-      "l": 3,
-      "d": 0,
-      "gf": 11,
-      "ga": 14,
-      "gd": -3,
-      "ppg": "0.75"
     },
     {
       "pos": 8,
@@ -508,14 +508,14 @@
     {
       "pos": 9,
       "team": "RISE Soccer Club GA 10/11",
-      "mp": 4,
+      "mp": 5,
       "w": 0,
-      "l": 2,
+      "l": 3,
       "d": 2,
-      "gf": 1,
-      "ga": 3,
-      "gd": -2,
-      "ppg": "0.50"
+      "gf": 2,
+      "ga": 7,
+      "gd": -5,
+      "ppg": "0.40"
     },
     {
       "pos": 10,
@@ -573,5 +573,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-20T03:07:27Z"
+  "checked": "2026-09-20T04:07:56Z"
 }
