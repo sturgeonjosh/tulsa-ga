@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T17:08:00Z",
+  "updated": "2026-09-20T18:10:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
@@ -10,9 +10,9 @@
   "position": {
     "rank": 7,
     "of": 11,
-    "note": "slipped to 7th; Oklahoma Celtic's 4-1 win at RISE moved them level on 1.20 points per game and ahead on goal difference"
+    "note": "slipped to 7th on Sunday; level with Oklahoma Celtic on 1.20 points per game but behind on goal difference"
   },
-  "standingsNote": "Through Sun Sep 20 morning · as posted on GotSport",
+  "standingsNote": "Through Sun Sep 20 · as posted on GotSport",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -573,5 +573,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-20T17:08:00Z"
+  "checked": "2026-09-20T18:10:00Z"
 }
