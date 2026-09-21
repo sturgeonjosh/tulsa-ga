@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-21T03:10:00Z",
+  "updated": "2026-09-21T04:06:56Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
     "l": 4,
     "d": 0,
-    "note": "all six league games now posted on GotSport"
+    "note": "Four straight without a win since the Dallas Surf result on Sep 12"
   },
   "position": {
     "rank": 7,
     "of": 11,
-    "note": "7th; level with Oklahoma Celtic on 1.00 points per game, behind on goal difference"
+    "note": "7th of 11 on 1.00 points per game, level with Oklahoma Celtic who lead on goals scored"
   },
   "standingsNote": "Through Sun Sep 20 · as posted on GotSport",
   "fixtures": [
@@ -573,5 +573,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-21T03:10:00Z"
+  "checked": "2026-09-21T04:06:56Z"
 }
