@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-21T04:06:56Z",
+  "updated": "2026-09-21T12:12:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
     "l": 4,
     "d": 0,
-    "note": "Four straight without a win since the Dallas Surf result on Sep 12"
+    "note": "all six played matches now posted on GotSport"
   },
   "position": {
     "rank": 7,
     "of": 11,
-    "note": "7th of 11 on 1.00 points per game, level with Oklahoma Celtic who lead on goals scored"
+    "note": "7th at 1.00 points per game, level with Oklahoma Celtic but behind on goal difference (-3 to -1)"
   },
   "standingsNote": "Through Sun Sep 20 · as posted on GotSport",
   "fixtures": [
@@ -362,7 +362,7 @@
       "t": "2026-09-19T13:00",
       "home": "Atletico Dallas",
       "away": "Heir FC",
-      "score": "",
+      "score": "3-0",
       "unofficial": false
     },
     {
@@ -435,6 +435,18 @@
     },
     {
       "pos": 3,
+      "team": "Atletico Dallas Youth GA 10/11",
+      "mp": 7,
+      "w": 5,
+      "l": 1,
+      "d": 1,
+      "gf": 12,
+      "ga": 4,
+      "gd": 8,
+      "ppg": "2.29"
+    },
+    {
+      "pos": 4,
       "team": "San Antonio City SC GA 10/11",
       "mp": 5,
       "w": 3,
@@ -444,18 +456,6 @@
       "ga": 4,
       "gd": 3,
       "ppg": "2.20"
-    },
-    {
-      "pos": 4,
-      "team": "Atletico Dallas Youth GA 10/11",
-      "mp": 6,
-      "w": 4,
-      "l": 1,
-      "d": 1,
-      "gf": 9,
-      "ga": 4,
-      "gd": 5,
-      "ppg": "2.17"
     },
     {
       "pos": 5,
@@ -520,14 +520,14 @@
     {
       "pos": 10,
       "team": "Heir FC GA 10/11",
-      "mp": 6,
+      "mp": 7,
       "w": 0,
-      "l": 4,
+      "l": 5,
       "d": 2,
       "gf": 2,
-      "ga": 19,
-      "gd": -17,
-      "ppg": "0.33"
+      "ga": 22,
+      "gd": -20,
+      "ppg": "0.29"
     },
     {
       "pos": 11,
@@ -542,17 +542,21 @@
       "ppg": "0.00"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "text": "Lou Fusz Athletic midfielder Jordan Duffing was called into the U.S. U-16 Girls' National Team training camp in Fayetteville, GA, Sept 1-8. The roster does not say whether she plays for the Gold or White team. She is the only Frontier Conference player on either the U-16 or U-15 camp roster.",
+      "source": "https://www.soccerwire.com/news/rosters-u-s-u-16-and-u-15-girls-national-teams-to-hold-concurrent-camp-with-48-total-players/"
+    }
+  ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Sep 14",
+    "week": "Week of Sep 21",
     "lines": [
-      "GotSport has now posted Sunday's home game: Tulsa 0-2 Atletico Dallas, so the weekend ends one win, one loss.",
-      "That drops Tulsa to 6th of 11 on 1.50 points per game, four played, goals level at 6-6.",
-      "Atletico Dallas move up to 3rd with the win. Dallas Surf beat Oklahoma Celtic 3-2 on Sunday and sit 5th.",
-      "The RISE vs San Antonio City score from Sep 12 was corrected on GotSport to 1-2, not 1-5.",
-      "Next up: away at San Antonio City, Saturday Sep 19 at 9:00 AM, Specht SC Field 3. Then at RISE on Sunday.",
-      "Note: the away game at Heir FC moved to Saturday Feb 13, 2027 at noon."
+      "Hard weekend on the road. San Antonio City won 2-1 on Saturday, then RISE won 2-0 on Sunday. Both are now posted on GotSport.",
+      "Tulsa sits 7th of 11 at 2-4-0, one point per game, seven goals scored and ten conceded.",
+      "RISE got their first win of the season against Tulsa and moved up to 8th, pushing Lou Fusz White down to 9th. Atletico Dallas beat Heir 3-0 and hold 3rd.",
+      "Next up is a home doubleheader at Scheels: Lou Fusz White on Saturday Sep 26 at noon, then Lou Fusz Gold on Sunday Sep 27 at 1:00.",
+      "Gold are top of the table and unbeaten at 5-0-1 with 29 goals in six games. White are 9th at 1-3-0, and their last two results from Sep 19 and 20 still have not been posted."
     ]
   },
   "staff": [
@@ -573,5 +577,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-21T04:06:56Z"
+  "checked": "2026-09-21T12:12:00Z"
 }
