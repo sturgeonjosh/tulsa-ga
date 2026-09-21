@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-21T01:07:22Z",
+  "updated": "2026-09-21T02:10:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 2,
     "l": 3,
     "d": 0,
-    "note": "Sunday Sep 20 at RISE has not been posted on GotSport yet; record still reflects five matches through Sep 19"
+    "note": "Sunday Sep 20 at RISE has not been posted on GotSport yet"
   },
   "position": {
     "rank": 7,
     "of": 11,
-    "note": "slipped to 7th; level with Oklahoma Celtic on 1.20 points per game, behind on goal difference"
+    "note": "slipped to 7th; Oklahoma Celtic passed Tulsa on goals scored at 1.20 points per game"
   },
   "standingsNote": "Through Sun Sep 20 · as posted on GotSport",
   "fixtures": [
@@ -573,5 +573,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-21T01:07:22Z"
+  "checked": "2026-09-21T02:10:00Z"
 }
