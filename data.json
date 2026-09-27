@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-27T00:12:00Z",
+  "updated": "2026-09-27T01:06:46Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
-    "w": 2,
+    "w": 3,
     "l": 4,
     "d": 0,
-    "note": "Saturday's home match with Lou Fusz White is not posted on GotSport yet"
+    "note": "5-1 win over Lou Fusz White on Sat Sep 26"
   },
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "Up to 6th at 1.00 points per game after Oklahoma Celtic lost 8-2 to Lou Fusz Gold and slipped to 7th"
+    "note": "up to 6th at 1.29 points per game, and into positive goal difference (+1) for the first time this season"
   },
-  "standingsNote": "Through Sat Sep 26 · Tulsa's Sep 26 result not yet posted on GotSport",
+  "standingsNote": "Through Sat Sep 26 · two conference matches from Saturday afternoon not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -67,7 +67,7 @@
       "opp": "Lou Fusz Athletic GA 10/11 White",
       "ha": "H",
       "venue": "Scheels Sports Complex · JSC #1 Turf",
-      "score": "",
+      "score": "5-1",
       "unofficial": false
     },
     {
@@ -409,6 +409,13 @@
     },
     {
       "t": "2026-09-26T12:00",
+      "home": "Tulsa SC",
+      "away": "Lou Fusz White",
+      "score": "5-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T12:00",
       "home": "Oklahoma Celtic",
       "away": "Lou Fusz Gold",
       "score": "2-8",
@@ -479,14 +486,14 @@
     {
       "pos": 6,
       "team": "Tulsa Soccer Club GA 10/11",
-      "mp": 6,
-      "w": 2,
+      "mp": 7,
+      "w": 3,
       "l": 4,
       "d": 0,
-      "gf": 7,
-      "ga": 10,
-      "gd": -3,
-      "ppg": "1.00"
+      "gf": 12,
+      "ga": 11,
+      "gd": 1,
+      "ppg": "1.29"
     },
     {
       "pos": 7,
@@ -527,14 +534,14 @@
     {
       "pos": 10,
       "team": "Lou Fusz Athletic GA 10/11 White",
-      "mp": 6,
+      "mp": 7,
       "w": 1,
-      "l": 5,
+      "l": 6,
       "d": 0,
-      "gf": 4,
-      "ga": 23,
-      "gd": -19,
-      "ppg": "0.50"
+      "gf": 5,
+      "ga": 28,
+      "gd": -23,
+      "ppg": "0.43"
     },
     {
       "pos": 11,
@@ -584,5 +591,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-27T00:12:00Z"
+  "checked": "2026-09-27T01:06:46Z"
 }
