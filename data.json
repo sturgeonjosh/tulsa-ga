@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T22:06:10Z",
+  "updated": "2026-09-27T23:10:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 3,
@@ -12,7 +12,7 @@
     "of": 11,
     "note": "up to 6th at 1.29 points per game, and into positive goal difference (+1) for the first time this season"
   },
-  "standingsNote": "Through Sun Sep 27 · Sunday's four conference matches, including Tulsa vs Lou Fusz Gold, not yet posted",
+  "standingsNote": "Through Sun Sep 27 · Tulsa's 1:00 vs Lou Fusz Gold and three other Sunday matches not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -220,16 +220,16 @@
     },
     {
       "t": "2026-09-05T13:00",
-      "home": "Oklahoma Celtic",
-      "away": "HTX",
-      "score": "1-4",
+      "home": "Atletico Dallas",
+      "away": "RISE SC",
+      "score": "1-0",
       "unofficial": false
     },
     {
       "t": "2026-09-05T13:00",
-      "home": "Atletico Dallas",
-      "away": "RISE SC",
-      "score": "1-0",
+      "home": "Oklahoma Celtic",
+      "away": "HTX",
+      "score": "1-4",
       "unofficial": false
     },
     {
@@ -276,16 +276,16 @@
     },
     {
       "t": "2026-09-07T11:00",
-      "home": "Heir FC",
-      "away": "RISE SC",
-      "score": "0-0",
+      "home": "Dallas Surf",
+      "away": "Lou Fusz Gold",
+      "score": "0-3",
       "unofficial": false
     },
     {
       "t": "2026-09-07T11:00",
-      "home": "Dallas Surf",
-      "away": "Lou Fusz Gold",
-      "score": "0-3",
+      "home": "Heir FC",
+      "away": "RISE SC",
+      "score": "0-0",
       "unofficial": false
     },
     {
@@ -409,16 +409,16 @@
     },
     {
       "t": "2026-09-26T12:00",
-      "home": "Tulsa SC",
-      "away": "Lou Fusz White",
-      "score": "5-1",
+      "home": "Oklahoma Celtic",
+      "away": "Lou Fusz Gold",
+      "score": "2-8",
       "unofficial": false
     },
     {
       "t": "2026-09-26T12:00",
-      "home": "Oklahoma Celtic",
-      "away": "Lou Fusz Gold",
-      "score": "2-8",
+      "home": "Tulsa SC",
+      "away": "Lou Fusz White",
+      "score": "5-1",
       "unofficial": false
     },
     {
@@ -598,5 +598,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-27T22:06:10Z"
+  "checked": "2026-09-27T23:10:00Z"
 }
