@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T01:06:46Z",
+  "updated": "2026-09-27T13:05:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 3,
@@ -12,7 +12,7 @@
     "of": 11,
     "note": "up to 6th at 1.29 points per game, and into positive goal difference (+1) for the first time this season"
   },
-  "standingsNote": "Through Sat Sep 26 · two conference matches from Saturday afternoon not yet posted",
+  "standingsNote": "Through Sat Sep 26 · HTX North vs Dallas Surf from Saturday afternoon still not posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -420,6 +420,13 @@
       "away": "Lou Fusz Gold",
       "score": "2-8",
       "unofficial": false
+    },
+    {
+      "t": "2026-09-26T14:00",
+      "home": "HTX",
+      "away": "Atletico Dallas",
+      "score": "3-0",
+      "unofficial": false
     }
   ],
   "standings": [
@@ -438,29 +445,17 @@
     {
       "pos": 2,
       "team": "HTX GA 10/11",
-      "mp": 6,
-      "w": 5,
+      "mp": 7,
+      "w": 6,
       "l": 0,
       "d": 1,
-      "gf": 27,
+      "gf": 30,
       "ga": 6,
-      "gd": 21,
-      "ppg": "2.67"
+      "gd": 24,
+      "ppg": "2.71"
     },
     {
       "pos": 3,
-      "team": "Atletico Dallas Youth GA 10/11",
-      "mp": 7,
-      "w": 5,
-      "l": 1,
-      "d": 1,
-      "gf": 12,
-      "ga": 4,
-      "gd": 8,
-      "ppg": "2.29"
-    },
-    {
-      "pos": 4,
       "team": "San Antonio City SC GA 10/11",
       "mp": 5,
       "w": 3,
@@ -470,6 +465,18 @@
       "ga": 4,
       "gd": 3,
       "ppg": "2.20"
+    },
+    {
+      "pos": 4,
+      "team": "Atletico Dallas Youth GA 10/11",
+      "mp": 8,
+      "w": 5,
+      "l": 2,
+      "d": 1,
+      "gf": 12,
+      "ga": 7,
+      "gd": 5,
+      "ppg": "2.00"
     },
     {
       "pos": 5,
@@ -591,5 +598,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-27T04:06:43Z"
+  "checked": "2026-09-27T13:05:00Z"
 }
