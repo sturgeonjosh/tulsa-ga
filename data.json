@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-28T03:21:00Z",
+  "updated": "2026-09-28T04:07:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 3,
     "l": 4,
-    "d": 1,
-    "note": "1-1 draw at home with unbeaten Lou Fusz Gold on Sun Sep 27 (reported by a parent, not yet posted on GotSport)"
+    "d": 0,
+    "note": "5-1 win over Lou Fusz White on Sat Sep 26"
   },
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "6th of 11 at 1.25 points per game once Sunday's draw posts, with goal difference still +1"
+    "note": "up to 6th at 1.29 points per game, and into positive goal difference (+1) for the first time this season"
   },
-  "standingsNote": "Through Sun Sep 27 · Tulsa's 1-1 draw with Lou Fusz Gold is reported but not yet posted, so the table below still shows 7 matches · three other conference matches also unposted",
+  "standingsNote": "Through Sun Sep 27 · Tulsa vs Lou Fusz Gold and three other conference matches not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -75,8 +75,8 @@
       "opp": "Lou Fusz Athletic GA 10/11 Gold",
       "ha": "H",
       "venue": "Scheels Sports Complex · JSC #2 Turf",
-      "score": "1-1",
-      "unofficial": true
+      "score": "",
+      "unofficial": false
     },
     {
       "t": "2026-10-04T14:00",
@@ -434,13 +434,6 @@
       "away": "Dallas Surf",
       "score": "4-1",
       "unofficial": false
-    },
-    {
-      "t": "2026-09-27T13:00",
-      "home": "Tulsa SC",
-      "away": "Lou Fusz Gold",
-      "score": "1-1",
-      "unofficial": true
     }
   ],
   "standings": [
@@ -612,5 +605,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-09-28T03:21:00Z"
+  "checked": "2026-09-28T04:07:00Z"
 }
