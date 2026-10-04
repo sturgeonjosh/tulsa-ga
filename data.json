@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T19:10:00Z",
+  "updated": "2026-10-04T21:06:42Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 3,
@@ -10,9 +10,9 @@
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "slipped to 6th after Oklahoma Celtic's 7-2 win over Heir FC on Sat Oct 3; still level with Dallas Surf on 1.25 points per game and ahead on goal difference at +1"
+    "note": "down to 6th after Oklahoma Celtic beat Heir FC 7-2 on Saturday and moved to 1.33 points per game; Tulsa still ahead of Dallas Surf on goal difference"
   },
-  "standingsNote": "Through Sat Oct 3 · as posted on GotSport · today's matches not yet posted",
+  "standingsNote": "Through Sat Oct 3 · as posted on GotSport · Tulsa's Oct 4 result against Heir FC not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -640,5 +640,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-04T20:07:45Z"
+  "checked": "2026-10-04T21:06:42Z"
 }
