@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T16:05:00Z",
+  "updated": "2026-10-04T17:08:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 3,
@@ -10,9 +10,9 @@
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "down to 6th after Oklahoma Celtic beat Heir FC 7-2 on Sat Oct 3 and jumped to 1.33 points per game; Tulsa still ahead of Dallas Surf on goal difference at +1"
+    "note": "down to 6th after Oklahoma Celtic's 7-2 win over Heir FC on Sat Oct 3 moved Celtic to 1.33 points per game; Tulsa still ahead of Dallas Surf on goal difference"
   },
-  "standingsNote": "Through Sat Oct 3 · as posted on GotSport · four of Saturday's five conference results still unposted",
+  "standingsNote": "Through Sat Oct 3 · as posted on GotSport · other Oct 3-4 conference results not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -469,55 +469,6 @@
       "away": "Heir FC",
       "score": "7-2",
       "unofficial": false
-    },
-    {
-      "t": "2026-10-03T13:00",
-      "home": "Lou Fusz Gold",
-      "away": "Dallas Surf",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-03T13:00",
-      "home": "Lou Fusz White",
-      "away": "Atletico Dallas",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-03T16:00",
-      "home": "HTX North",
-      "away": "San Antonio City",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-03T16:00",
-      "home": "RISE SC",
-      "away": "HTX",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-04T11:00",
-      "home": "Lou Fusz Gold",
-      "away": "Atletico Dallas",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-04T11:00",
-      "home": "Lou Fusz White",
-      "away": "Dallas Surf",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-04T14:00",
-      "home": "Tulsa SC",
-      "away": "Heir FC",
-      "score": "",
-      "unofficial": false
     }
   ],
   "standings": [
@@ -689,5 +640,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-04T16:05:00Z"
+  "checked": "2026-10-04T17:08:00Z"
 }
