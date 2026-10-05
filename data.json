@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-05T02:10:00Z",
+  "updated": "2026-10-05T03:06:01Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 4,
     "d": 1,
-    "note": "4-4-1 after the 3-0 win over Heir FC on Sun Oct 4"
+    "note": "4-4-1 after the 3-0 win over Heir FC on Sat Oct 4"
   },
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th, up to 1.44 points per game and +4 goal difference, now clear of Oklahoma Celtic on 1.33"
+    "note": "holds 5th, now clear of Dallas Surf on 1.44 points per game with a +4 goal difference"
   },
-  "standingsNote": "Through Sun Oct 4 · as posted on GotSport · four Oct 3-4 conference matches still unposted",
+  "standingsNote": "Through Sun Oct 4 · as posted on GotSport · three Oct 3-4 conference results not yet posted",
   "fixtures": [
     {"t": "2026-09-05T13:00", "opp": "HTX GA 10/11 North", "ha": "H", "venue": "Scheels Sports Complex · JSC #11", "score": "4-1", "unofficial": false},
     {"t": "2026-09-06T11:00", "opp": "HTX GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #10", "score": "0-3", "unofficial": false},
@@ -79,6 +79,7 @@
     {"t": "2026-09-27T13:00", "home": "Tulsa SC", "away": "Lou Fusz Gold", "score": "1-1", "unofficial": false},
     {"t": "2026-10-03T12:00", "home": "Oklahoma Celtic", "away": "Heir FC", "score": "7-2", "unofficial": false},
     {"t": "2026-10-03T13:00", "home": "Lou Fusz Gold", "away": "Dallas Surf", "score": "3-0", "unofficial": false},
+    {"t": "2026-10-03T13:00", "home": "Lou Fusz White", "away": "Atletico Dallas", "score": "1-1", "unofficial": false},
     {"t": "2026-10-04T11:00", "home": "Lou Fusz Gold", "away": "Atletico Dallas", "score": "4-0", "unofficial": false},
     {"t": "2026-10-04T14:00", "home": "Tulsa SC", "away": "Heir FC", "score": "3-0", "unofficial": false}
   ],
@@ -86,13 +87,13 @@
     {"pos": 1, "team": "HTX GA 10/11", "mp": 8, "w": 7, "l": 0, "d": 1, "gf": 34, "ga": 7, "gd": 27, "ppg": "2.75"},
     {"pos": 2, "team": "Lou Fusz Athletic GA 10/11 Gold", "mp": 10, "w": 8, "l": 0, "d": 2, "gf": 45, "ga": 7, "gd": 38, "ppg": "2.60"},
     {"pos": 3, "team": "San Antonio City SC GA 10/11", "mp": 5, "w": 3, "l": 0, "d": 2, "gf": 7, "ga": 4, "gd": 3, "ppg": "2.20"},
-    {"pos": 4, "team": "Atletico Dallas Youth GA 10/11", "mp": 10, "w": 5, "l": 3, "d": 2, "gf": 13, "ga": 12, "gd": 1, "ppg": "1.70"},
+    {"pos": 4, "team": "Atletico Dallas Youth GA 10/11", "mp": 11, "w": 5, "l": 3, "d": 3, "gf": 14, "ga": 13, "gd": 1, "ppg": "1.64"},
     {"pos": 5, "team": "Tulsa Soccer Club GA 10/11", "mp": 9, "w": 4, "l": 4, "d": 1, "gf": 16, "ga": 12, "gd": 4, "ppg": "1.44"},
     {"pos": 6, "team": "Oklahoma Celtic GA 10/11", "mp": 9, "w": 4, "l": 5, "d": 0, "gf": 31, "ga": 31, "gd": 0, "ppg": "1.33"},
     {"pos": 7, "team": "Dallas Surf GA 10/11", "mp": 9, "w": 3, "l": 5, "d": 1, "gf": 11, "ga": 19, "gd": -8, "ppg": "1.11"},
     {"pos": 8, "team": "HTX GA 10/11 North", "mp": 7, "w": 2, "l": 4, "d": 1, "gf": 14, "ga": 23, "gd": -9, "ppg": "1.00"},
     {"pos": 9, "team": "RISE Soccer Club GA 10/11", "mp": 6, "w": 1, "l": 3, "d": 2, "gf": 4, "ga": 7, "gd": -3, "ppg": "0.83"},
-    {"pos": 10, "team": "Lou Fusz Athletic GA 10/11 White", "mp": 8, "w": 1, "l": 7, "d": 0, "gf": 9, "ga": 34, "gd": -25, "ppg": "0.38"},
+    {"pos": 10, "team": "Lou Fusz Athletic GA 10/11 White", "mp": 9, "w": 1, "l": 7, "d": 1, "gf": 10, "ga": 35, "gd": -25, "ppg": "0.44"},
     {"pos": 11, "team": "Heir FC GA 10/11", "mp": 9, "w": 0, "l": 7, "d": 2, "gf": 4, "ga": 32, "gd": -28, "ppg": "0.22"}
   ],
   "notes": [
@@ -118,5 +119,5 @@
     {"name": "Jacob Feener", "role": "Coach"},
     {"name": "Eric Edwards", "role": "Manager"}
   ],
-  "checked": "2026-10-05T02:10:00Z"
+  "checked": "2026-10-05T03:06:01Z"
 }
