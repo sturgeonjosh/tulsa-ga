@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-05T04:07:51Z",
+  "updated": "2026-10-05T12:19:35Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 4,
     "d": 1,
-    "note": "4-4-1 after the 3-0 win over Heir FC at home on Sat Oct 4"
+    "note": "4-4-1 after the 3-0 win over Heir FC at home on Sun Oct 4"
   },
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th, up to 1.44 points per game and +4 goal difference, now clear of Oklahoma Celtic in 6th"
+    "note": "holds 5th on 1.44 points per game, now clear of Oklahoma Celtic (1.33) and Dallas Surf (1.11), with goal difference up to +4"
   },
-  "standingsNote": "Through Sun Oct 4 · as posted on GotSport · three Oct 3-4 conference matches not yet posted",
+  "standingsNote": "Through Sun Oct 4 · as posted on GotSport",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -485,31 +485,10 @@
       "unofficial": false
     },
     {
-      "t": "2026-10-03T16:00",
-      "home": "HTX North",
-      "away": "San Antonio City",
-      "score": "",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-03T16:00",
-      "home": "RISE SC",
-      "away": "HTX",
-      "score": "",
-      "unofficial": false
-    },
-    {
       "t": "2026-10-04T11:00",
       "home": "Lou Fusz Gold",
       "away": "Atletico Dallas",
       "score": "4-0",
-      "unofficial": false
-    },
-    {
-      "t": "2026-10-04T11:00",
-      "home": "Lou Fusz White",
-      "away": "Dallas Surf",
-      "score": "",
       "unofficial": false
     },
     {
@@ -662,13 +641,13 @@
   ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Sep 28",
+    "week": "Week of Oct 5",
     "lines": [
-      "GotSport has now posted the three weekend matches that were missing, and Tulsa moved up to 5th of 11 without kicking a ball.",
-      "HTX North beat Dallas Surf 3-1 on Saturday. That dropped Surf to -5 goal difference, so Tulsa and Surf are level on 1.25 points per game and Tulsa is ahead on goal difference at +1.",
-      "The other two late results: Oklahoma Celtic 6-4 over Lou Fusz White, and HTX North 1-1 with Atletico Dallas. Atletico keeps 4th but slipped from 2.00 to 1.89 points per game.",
-      "Tulsa's own record is unchanged at 3-4-1, 13 scored and 12 conceded.",
-      "Next up is Heir FC at home, Saturday Oct 4 at 2:00 at Scheels. Heir FC are bottom at 0-5-2, two goals scored and 22 conceded, still looking for a first win."
+      "Tulsa beat Heir FC 3-0 at home on Sunday, a first clean sheet since the Dallas Surf win on Sep 12.",
+      "That takes the record to 4-4-1 from nine games, 16 scored and 12 conceded.",
+      "Tulsa stays 5th of 11 but with more room now: 1.44 points per game, ahead of Oklahoma Celtic on 1.33 and Dallas Surf on 1.11. Surf dropped from 6th to 7th, Celtic moved up to 6th.",
+      "Lou Fusz Gold had the weekend of the conference, 3-0 over Dallas Surf on Saturday and 4-0 over Atletico Dallas on Sunday. They are 8-0-2 and 2nd on 2.60 points per game, and Atletico slipped from 1.89 to 1.64 points per game while keeping 4th.",
+      "No match next weekend. Tulsa are back home Sat Oct 24 at 2:00 against RISE SC, who sit 9th at 1-3-2 with four goals in six games."
     ]
   },
   "staff": [
@@ -689,5 +668,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-05T04:07:51Z"
+  "checked": "2026-10-05T12:19:35Z"
 }
