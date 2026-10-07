@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T12:19:35Z",
+  "updated": "2026-10-07T01:15:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -10,9 +10,9 @@
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th on 1.44 points per game, now clear of Oklahoma Celtic (1.33) and Dallas Surf (1.11), with goal difference up to +4"
+    "note": "holds 5th on 1.44 points per game; Oklahoma Celtic are 6th on 1.33 and Dallas Surf have closed to 1.30 in 7th after a late-posted win, with goal difference +4"
   },
-  "standingsNote": "Through Sun Oct 4 · as posted on GotSport",
+  "standingsNote": "Through Sun Oct 4 · as posted on GotSport Tue Oct 6",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -485,10 +485,24 @@
       "unofficial": false
     },
     {
+      "t": "2026-10-03T16:00",
+      "home": "HTX North",
+      "away": "San Antonio City",
+      "score": "0-2",
+      "unofficial": false
+    },
+    {
       "t": "2026-10-04T11:00",
       "home": "Lou Fusz Gold",
       "away": "Atletico Dallas",
       "score": "4-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-04T11:00",
+      "home": "Lou Fusz White",
+      "away": "Dallas Surf",
+      "score": "1-2",
       "unofficial": false
     },
     {
@@ -527,14 +541,14 @@
     {
       "pos": 3,
       "team": "San Antonio City SC GA 10/11",
-      "mp": 5,
-      "w": 3,
+      "mp": 6,
+      "w": 4,
       "l": 0,
       "d": 2,
-      "gf": 7,
+      "gf": 9,
       "ga": 4,
-      "gd": 3,
-      "ppg": "2.20"
+      "gd": 5,
+      "ppg": "2.33"
     },
     {
       "pos": 4,
@@ -575,26 +589,26 @@
     {
       "pos": 7,
       "team": "Dallas Surf GA 10/11",
-      "mp": 9,
-      "w": 3,
+      "mp": 10,
+      "w": 4,
       "l": 5,
       "d": 1,
-      "gf": 11,
-      "ga": 19,
-      "gd": -8,
-      "ppg": "1.11"
+      "gf": 13,
+      "ga": 20,
+      "gd": -7,
+      "ppg": "1.30"
     },
     {
       "pos": 8,
       "team": "HTX GA 10/11 North",
-      "mp": 7,
+      "mp": 8,
       "w": 2,
-      "l": 4,
+      "l": 5,
       "d": 1,
       "gf": 14,
-      "ga": 23,
-      "gd": -9,
-      "ppg": "1.00"
+      "ga": 25,
+      "gd": -11,
+      "ppg": "0.88"
     },
     {
       "pos": 9,
@@ -611,14 +625,14 @@
     {
       "pos": 10,
       "team": "Lou Fusz Athletic GA 10/11 White",
-      "mp": 9,
+      "mp": 10,
       "w": 1,
-      "l": 7,
+      "l": 8,
       "d": 1,
-      "gf": 10,
-      "ga": 35,
-      "gd": -25,
-      "ppg": "0.44"
+      "gf": 11,
+      "ga": 37,
+      "gd": -26,
+      "ppg": "0.40"
     },
     {
       "pos": 11,
@@ -645,9 +659,10 @@
     "lines": [
       "Tulsa beat Heir FC 3-0 at home on Sunday, a first clean sheet since the Dallas Surf win on Sep 12.",
       "That takes the record to 4-4-1 from nine games, 16 scored and 12 conceded.",
-      "Tulsa stays 5th of 11 but with more room now: 1.44 points per game, ahead of Oklahoma Celtic on 1.33 and Dallas Surf on 1.11. Surf dropped from 6th to 7th, Celtic moved up to 6th.",
+      "Two more weekend results landed on GotSport this week: San Antonio City won 2-0 at HTX North on Saturday, and Dallas Surf won 1-2 at Lou Fusz White on Sunday.",
+      "Tulsa stay 5th of 11 on 1.44 points per game. Oklahoma Celtic hold 6th on 1.33, and Dallas Surf, still 7th, have closed to 1.30. San Antonio City move up to 2.33 and stay 3rd.",
       "Lou Fusz Gold had the weekend of the conference, 3-0 over Dallas Surf on Saturday and 4-0 over Atletico Dallas on Sunday. They are 8-0-2 and 2nd on 2.60 points per game, and Atletico slipped from 1.89 to 1.64 points per game while keeping 4th.",
-      "No match next weekend. Tulsa are back home Sat Oct 24 at 2:00 against RISE SC, who sit 9th at 1-3-2 with four goals in six games."
+      "No match this weekend. Tulsa are back home Sat Oct 24 at 2:00 against RISE SC, who sit 9th at 1-3-2 with four goals in six games."
     ]
   },
   "staff": [
@@ -668,5 +683,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-05T12:19:35Z"
+  "checked": "2026-10-07T01:15:00Z"
 }
