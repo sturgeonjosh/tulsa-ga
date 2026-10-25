@@ -1,1 +1,777 @@
-{"updated": "2026-10-25T04:10:20Z", "team": "Tulsa Soccer Club GA 10/11", "record": {"w": 4, "l": 4, "d": 1, "note": "4-4-1 after the 3-0 win over Heir FC at home on Sun Oct 4"}, "position": {"rank": 5, "of": 11, "note": "holds 5th on 1.44 points per game; Oklahoma Celtic are 6th on 1.33 and Dallas Surf 7th on 1.08, with goal difference +4"}, "standingsNote": "Through Sat Oct 24 night · as posted on GotSport late Sat Oct 24", "fixtures": [{"t": "2026-09-05T13:00", "opp": "HTX GA 10/11 North", "ha": "H", "venue": "Scheels Sports Complex · JSC #11", "score": "4-1", "unofficial": false}, {"t": "2026-09-06T11:00", "opp": "HTX GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #10", "score": "0-3", "unofficial": false}, {"t": "2026-09-12T13:00", "opp": "Dallas Surf GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "2-0", "unofficial": false}, {"t": "2026-09-13T13:00", "opp": "Atletico Dallas Youth GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #2 Turf", "score": "0-2", "unofficial": false}, {"t": "2026-09-19T09:00", "opp": "San Antonio City SC GA 10/11", "ha": "A", "venue": "Specht SC · Field 3 · San Antonio, TX", "score": "1-2", "unofficial": false}, {"t": "2026-09-20T13:00", "opp": "RISE Soccer Club GA 10/11", "ha": "A", "venue": "RISE SC South Campus · SC 2", "score": "0-2", "unofficial": false}, {"t": "2026-09-26T12:00", "opp": "Lou Fusz Athletic GA 10/11 White", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "5-1", "unofficial": false}, {"t": "2026-09-27T13:00", "opp": "Lou Fusz Athletic GA 10/11 Gold", "ha": "H", "venue": "Scheels Sports Complex · JSC #2 Turf", "score": "1-1", "unofficial": false}, {"t": "2026-10-04T14:00", "opp": "Heir FC GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "3-0", "unofficial": false}, {"t": "2026-10-24T14:00", "opp": "RISE Soccer Club GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "", "unofficial": false}, {"t": "2026-10-25T11:00", "opp": "San Antonio City SC GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "", "unofficial": false}, {"t": "2026-10-31T13:00", "opp": "Lou Fusz Athletic GA 10/11 Gold", "ha": "A", "venue": "Lou Fusz Soccer Complex · #7 · St. Louis, MO", "score": "", "unofficial": false}, {"t": "2026-11-01T13:00", "opp": "Lou Fusz Athletic GA 10/11 White", "ha": "A", "venue": "Lou Fusz Soccer Complex · #6 · St. Louis, MO", "score": "", "unofficial": false}, {"t": "2026-11-14T08:00", "opp": "HTX GA 10/11 (Frontier Summit)", "ha": "A", "venue": "Gosling Sportsfields · Gosling #1 · The Woodlands, TX", "score": "", "unofficial": false}, {"t": "2026-11-15T08:00", "opp": "HTX GA 10/11 North (Frontier Summit)", "ha": "A", "venue": "Bear Branch Sportsfields · #4 · The Woodlands, TX", "score": "", "unofficial": false}, {"t": "2026-12-12T10:00", "opp": "Atletico Dallas Youth GA 10/11", "ha": "A", "venue": "Dallas Soccer Park · #2", "score": "", "unofficial": false}, {"t": "2026-12-13T09:00", "opp": "Dallas Surf GA 10/11", "ha": "A", "venue": "Southwood Sports Complex · 11v11 #3", "score": "", "unofficial": false}, {"t": "2027-01-23T13:00", "opp": "Oklahoma Celtic GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #1 Turf", "score": "", "unofficial": false}, {"t": "2027-02-13T12:00", "opp": "Heir FC GA 10/11", "ha": "A", "venue": "RE Good Sports Complex · Field 3", "score": "", "unofficial": false}, {"t": "2027-02-21T12:00", "opp": "Oklahoma Celtic GA 10/11", "ha": "A", "venue": "GRC-Norman · Field 17 (11v11)", "score": "", "unofficial": false}], "league": [{"t": "2026-08-29T11:00", "home": "Atletico Dallas", "away": "San Antonio City", "score": "1-1", "unofficial": false}, {"t": "2026-08-29T14:00", "home": "Dallas Surf", "away": "Heir FC", "score": "2-1", "unofficial": false}, {"t": "2026-08-30T10:00", "home": "Heir FC", "away": "San Antonio City", "score": "0-0", "unofficial": false}, {"t": "2026-08-30T13:00", "home": "Lou Fusz White", "away": "Lou Fusz Gold", "score": "0-8", "unofficial": false}, {"t": "2026-09-05T09:00", "home": "Dallas Surf", "away": "Lou Fusz White", "score": "4-1", "unofficial": false}, {"t": "2026-09-05T09:00", "home": "Heir FC", "away": "Lou Fusz Gold", "score": "0-7", "unofficial": false}, {"t": "2026-09-05T13:00", "home": "Atletico Dallas", "away": "RISE SC", "score": "1-0", "unofficial": false}, {"t": "2026-09-05T13:00", "home": "Oklahoma Celtic", "away": "HTX", "score": "1-4", "unofficial": false}, {"t": "2026-09-05T13:00", "home": "Tulsa SC", "away": "HTX North", "score": "4-1", "unofficial": false}, {"t": "2026-09-06T09:00", "home": "Atletico Dallas", "away": "Lou Fusz Gold", "score": "0-1", "unofficial": false}, {"t": "2026-09-06T09:00", "home": "Dallas Surf", "away": "RISE SC", "score": "0-0", "unofficial": false}, {"t": "2026-09-06T11:00", "home": "Heir FC", "away": "Lou Fusz White", "score": "1-3", "unofficial": false}, {"t": "2026-09-06T11:00", "home": "Tulsa SC", "away": "HTX", "score": "0-3", "unofficial": false}, {"t": "2026-09-06T12:00", "home": "Oklahoma Celtic", "away": "HTX North", "score": "6-4", "unofficial": false}, {"t": "2026-09-07T11:00", "home": "Dallas Surf", "away": "Lou Fusz Gold", "score": "0-3", "unofficial": false}, {"t": "2026-09-07T11:00", "home": "Heir FC", "away": "RISE SC", "score": "0-0", "unofficial": false}, {"t": "2026-09-07T13:00", "home": "Atletico Dallas", "away": "Lou Fusz White", "score": "2-0", "unofficial": false}, {"t": "2026-09-12T11:00", "home": "Oklahoma Celtic", "away": "Atletico Dallas", "score": "2-3", "unofficial": false}, {"t": "2026-09-12T12:00", "home": "RISE SC", "away": "San Antonio City", "score": "1-2", "unofficial": false}, {"t": "2026-09-12T13:00", "home": "Tulsa SC", "away": "Dallas Surf", "score": "2-0", "unofficial": false}, {"t": "2026-09-12T14:00", "home": "HTX", "away": "HTX North", "score": "5-1", "unofficial": false}, {"t": "2026-09-13T13:00", "home": "Oklahoma Celtic", "away": "Dallas Surf", "score": "2-3", "unofficial": false}, {"t": "2026-09-13T13:00", "home": "Tulsa SC", "away": "Atletico Dallas", "score": "0-2", "unofficial": false}, {"t": "2026-09-13T15:00", "home": "HTX", "away": "Heir FC", "score": "7-0", "unofficial": false}, {"t": "2026-09-19T09:00", "home": "San Antonio City", "away": "Tulsa SC", "score": "2-1", "unofficial": false}, {"t": "2026-09-19T12:00", "home": "RISE SC", "away": "Oklahoma Celtic", "score": "1-4", "unofficial": false}, {"t": "2026-09-19T13:00", "home": "Atletico Dallas", "away": "Heir FC", "score": "3-0", "unofficial": false}, {"t": "2026-09-19T13:00", "home": "Lou Fusz Gold", "away": "HTX", "score": "4-4", "unofficial": false}, {"t": "2026-09-19T15:00", "home": "Lou Fusz White", "away": "HTX North", "score": "0-4", "unofficial": false}, {"t": "2026-09-20T11:00", "home": "Lou Fusz White", "away": "HTX", "score": "0-4", "unofficial": false}, {"t": "2026-09-20T11:00", "home": "San Antonio City", "away": "Oklahoma Celtic", "score": "2-1", "unofficial": false}, {"t": "2026-09-20T13:00", "home": "Lou Fusz Gold", "away": "HTX North", "score": "6-0", "unofficial": false}, {"t": "2026-09-20T13:00", "home": "RISE SC", "away": "Tulsa SC", "score": "2-0", "unofficial": false}, {"t": "2026-09-26T12:00", "home": "Oklahoma Celtic", "away": "Lou Fusz Gold", "score": "2-8", "unofficial": false}, {"t": "2026-09-26T12:00", "home": "Tulsa SC", "away": "Lou Fusz White", "score": "5-1", "unofficial": false}, {"t": "2026-09-26T14:00", "home": "HTX", "away": "Atletico Dallas", "score": "3-0", "unofficial": false}, {"t": "2026-09-26T14:00", "home": "HTX North", "away": "Dallas Surf", "score": "3-1", "unofficial": false}, {"t": "2026-09-27T11:00", "home": "HTX", "away": "Dallas Surf", "score": "4-1", "unofficial": false}, {"t": "2026-09-27T11:00", "home": "Oklahoma Celtic", "away": "Lou Fusz White", "score": "6-4", "unofficial": false}, {"t": "2026-09-27T12:00", "home": "HTX North", "away": "Atletico Dallas", "score": "1-1", "unofficial": false}, {"t": "2026-09-27T13:00", "home": "Tulsa SC", "away": "Lou Fusz Gold", "score": "1-1", "unofficial": false}, {"t": "2026-10-03T12:00", "home": "Oklahoma Celtic", "away": "Heir FC", "score": "7-2", "unofficial": false}, {"t": "2026-10-03T13:00", "home": "Lou Fusz Gold", "away": "Dallas Surf", "score": "3-0", "unofficial": false}, {"t": "2026-10-03T13:00", "home": "Lou Fusz White", "away": "Atletico Dallas", "score": "1-1", "unofficial": false}, {"t": "2026-10-03T16:00", "home": "HTX North", "away": "San Antonio City", "score": "0-2", "unofficial": false}, {"t": "2026-10-04T11:00", "home": "Lou Fusz Gold", "away": "Atletico Dallas", "score": "4-0", "unofficial": false}, {"t": "2026-10-04T11:00", "home": "Lou Fusz White", "away": "Dallas Surf", "score": "1-2", "unofficial": false}, {"t": "2026-10-04T14:00", "home": "Tulsa SC", "away": "Heir FC", "score": "3-0", "unofficial": false}, {"t": "2026-10-10T11:00", "home": "Lou Fusz Gold", "away": "San Antonio City", "score": "5-0", "unofficial": false}, {"t": "2026-10-10T13:00", "home": "Heir FC", "away": "HTX North", "score": "2-2", "unofficial": false}, {"t": "2026-10-10T13:00", "home": "Lou Fusz White", "away": "RISE SC", "score": "2-0", "unofficial": false}, {"t": "2026-10-11T11:00", "home": "Lou Fusz Gold", "away": "RISE SC", "score": "6-0", "unofficial": false}, {"t": "2026-10-11T11:00", "home": "Lou Fusz White", "away": "San Antonio City", "score": "0-0", "unofficial": false}, {"t": "2026-10-17T11:00", "home": "San Antonio City", "away": "RISE SC", "score": "1-0", "unofficial": false}, {"t": "2026-10-17T13:30", "home": "Dallas Surf", "away": "Atletico Dallas", "score": "0-1", "unofficial": false}, {"t": "2026-10-17T15:00", "home": "Lou Fusz Gold", "away": "Lou Fusz White", "score": "8-1", "unofficial": false}, {"t": "2026-10-17T16:00", "home": "HTX North", "away": "HTX", "score": "0-6", "unofficial": false}, {"t": "2026-10-24T09:00", "home": "Heir FC", "away": "Dallas Surf", "score": "1-0", "unofficial": false}, {"t": "2026-10-24T12:00", "home": "HTX North", "away": "Lou Fusz Gold", "score": "0-8", "unofficial": false}, {"t": "2026-10-24T14:00", "home": "HTX", "away": "Lou Fusz White", "score": "5-1", "unofficial": false}], "standings": [{"pos": 1, "team": "HTX GA 10/11", "mp": 10, "w": 9, "l": 0, "d": 1, "gf": 45, "ga": 8, "gd": 37, "ppg": "2.80"}, {"pos": 2, "team": "Lou Fusz Athletic GA 10/11 Gold", "mp": 14, "w": 12, "l": 0, "d": 2, "gf": 72, "ga": 8, "gd": 64, "ppg": "2.71"}, {"pos": 3, "team": "San Antonio City SC GA 10/11", "mp": 9, "w": 5, "l": 1, "d": 3, "gf": 10, "ga": 9, "gd": 1, "ppg": "2.00"}, {"pos": 4, "team": "Atletico Dallas Youth GA 10/11", "mp": 12, "w": 6, "l": 3, "d": 3, "gf": 15, "ga": 13, "gd": 2, "ppg": "1.75"}, {"pos": 5, "team": "Tulsa Soccer Club GA 10/11", "mp": 9, "w": 4, "l": 4, "d": 1, "gf": 16, "ga": 12, "gd": 4, "ppg": "1.44"}, {"pos": 6, "team": "Oklahoma Celtic GA 10/11", "mp": 9, "w": 4, "l": 5, "d": 0, "gf": 31, "ga": 31, "gd": 0, "ppg": "1.33"}, {"pos": 7, "team": "Dallas Surf GA 10/11", "mp": 12, "w": 4, "l": 7, "d": 1, "gf": 13, "ga": 22, "gd": -9, "ppg": "1.08"}, {"pos": 8, "team": "HTX GA 10/11 North", "mp": 11, "w": 2, "l": 7, "d": 2, "gf": 16, "ga": 41, "gd": -25, "ppg": "0.73"}, {"pos": 9, "team": "Lou Fusz Athletic GA 10/11 White", "mp": 14, "w": 2, "l": 10, "d": 2, "gf": 15, "ga": 50, "gd": -35, "ppg": "0.57"}, {"pos": 10, "team": "RISE Soccer Club GA 10/11", "mp": 9, "w": 1, "l": 6, "d": 2, "gf": 4, "ga": 16, "gd": -12, "ppg": "0.56"}, {"pos": 11, "team": "Heir FC GA 10/11", "mp": 11, "w": 1, "l": 7, "d": 3, "gf": 7, "ga": 34, "gd": -27, "ppg": "0.55"}], "notes": [{"text": "Lou Fusz Athletic midfielder Jordan Duffing was called into the U.S. U-16 Girls' National Team training camp in Fayetteville, GA, Sept 1-8. The roster does not say whether she plays for the Gold or White team. She is the only Frontier Conference player on either the U-16 or U-15 camp roster.", "source": "https://www.soccerwire.com/news/rosters-u-s-u-16-and-u-15-girls-national-teams-to-hold-concurrent-camp-with-48-total-players/"}], "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.", "roundup": {"week": "Week of Oct 19", "lines": ["No match for Tulsa again last weekend, so the record stays 4-4-1 from nine games, 16 scored and 12 conceded. Oct 24 will be the first game in three weeks.", "Tulsa hold 5th of 11 on 1.44 points per game, and the cushion grew: Dallas Surf lost 0-1 at home to Atletico Dallas and slipped to 1.18, while Oklahoma Celtic were idle on 1.33.", "Atletico Dallas were the weekend's winners, up to 1.75 and still 4th. Lou Fusz Gold beat Lou Fusz White 8-1 and HTX won 6-0 at HTX North, so the top two keep pulling away from the pack.", "Saturday's San Antonio City against RISE SC still has no score posted two days on, and GotSport quietly rescored Lou Fusz White's Oct 10 win over RISE from 3-0 to 2-0.", "Next up is RISE SC at home on Sat Oct 24 at 2:00. RISE sit 10th on 0.63 with four goals in eight games and have lost their last two 2-0 and 6-0, but they did win 2-0 at home over Tulsa in September."]}, "staff": [{"name": "Nathan Doll", "role": "Coach"}, {"name": "Cyprian Hedrick", "role": "Coach"}, {"name": "Jacob Feener", "role": "Coach"}, {"name": "Eric Edwards", "role": "Manager"}], "checked": "2026-10-25T04:10:20Z"}
+{
+  "updated": "2026-10-25T13:07:12Z",
+  "team": "Tulsa Soccer Club GA 10/11",
+  "record": {
+    "w": 4,
+    "l": 4,
+    "d": 2,
+    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24"
+  },
+  "position": {
+    "rank": 5,
+    "of": 11,
+    "note": "holds 5th on 1.40 points per game; Oklahoma Celtic are 6th on 1.33 and Dallas Surf 7th on 1.08, with goal difference +4"
+  },
+  "standingsNote": "Through Sat Oct 24 · as posted on GotSport Sun Oct 25 morning",
+  "fixtures": [
+    {
+      "t": "2026-09-05T13:00",
+      "opp": "HTX GA 10/11 North",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #11",
+      "score": "4-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T11:00",
+      "opp": "HTX GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #10",
+      "score": "0-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-12T13:00",
+      "opp": "Dallas Surf GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-13T13:00",
+      "opp": "Atletico Dallas Youth GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #2 Turf",
+      "score": "0-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T09:00",
+      "opp": "San Antonio City SC GA 10/11",
+      "ha": "A",
+      "venue": "Specht SC · Field 3 · San Antonio, TX",
+      "score": "1-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-20T13:00",
+      "opp": "RISE Soccer Club GA 10/11",
+      "ha": "A",
+      "venue": "RISE SC South Campus · SC 2",
+      "score": "0-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T12:00",
+      "opp": "Lou Fusz Athletic GA 10/11 White",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "5-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-27T13:00",
+      "opp": "Lou Fusz Athletic GA 10/11 Gold",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #2 Turf",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-04T14:00",
+      "opp": "Heir FC GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "3-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-24T14:00",
+      "opp": "RISE Soccer Club GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-25T11:00",
+      "opp": "San Antonio City SC GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-31T13:00",
+      "opp": "Lou Fusz Athletic GA 10/11 Gold",
+      "ha": "A",
+      "venue": "Lou Fusz Soccer Complex · #7 · St. Louis, MO",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-11-01T13:00",
+      "opp": "Lou Fusz Athletic GA 10/11 White",
+      "ha": "A",
+      "venue": "Lou Fusz Soccer Complex · #6 · St. Louis, MO",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-11-14T08:00",
+      "opp": "HTX GA 10/11 (Frontier Summit)",
+      "ha": "A",
+      "venue": "Gosling Sportsfields · Gosling #1 · The Woodlands, TX",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-11-15T08:00",
+      "opp": "HTX GA 10/11 North (Frontier Summit)",
+      "ha": "A",
+      "venue": "Bear Branch Sportsfields · #4 · The Woodlands, TX",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-12-12T10:00",
+      "opp": "Atletico Dallas Youth GA 10/11",
+      "ha": "A",
+      "venue": "Dallas Soccer Park · #2",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2026-12-13T09:00",
+      "opp": "Dallas Surf GA 10/11",
+      "ha": "A",
+      "venue": "Southwood Sports Complex · 11v11 #3",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2027-01-23T13:00",
+      "opp": "Oklahoma Celtic GA 10/11",
+      "ha": "H",
+      "venue": "Scheels Sports Complex · JSC #1 Turf",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2027-02-13T12:00",
+      "opp": "Heir FC GA 10/11",
+      "ha": "A",
+      "venue": "RE Good Sports Complex · Field 3",
+      "score": "",
+      "unofficial": false
+    },
+    {
+      "t": "2027-02-21T12:00",
+      "opp": "Oklahoma Celtic GA 10/11",
+      "ha": "A",
+      "venue": "GRC-Norman · Field 17 (11v11)",
+      "score": "",
+      "unofficial": false
+    }
+  ],
+  "league": [
+    {
+      "t": "2026-08-29T11:00",
+      "home": "Atletico Dallas",
+      "away": "San Antonio City",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-08-29T14:00",
+      "home": "Dallas Surf",
+      "away": "Heir FC",
+      "score": "2-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-08-30T10:00",
+      "home": "Heir FC",
+      "away": "San Antonio City",
+      "score": "0-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-08-30T13:00",
+      "home": "Lou Fusz White",
+      "away": "Lou Fusz Gold",
+      "score": "0-8",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-05T09:00",
+      "home": "Dallas Surf",
+      "away": "Lou Fusz White",
+      "score": "4-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-05T09:00",
+      "home": "Heir FC",
+      "away": "Lou Fusz Gold",
+      "score": "0-7",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-05T13:00",
+      "home": "Atletico Dallas",
+      "away": "RISE SC",
+      "score": "1-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-05T13:00",
+      "home": "Oklahoma Celtic",
+      "away": "HTX",
+      "score": "1-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-05T13:00",
+      "home": "Tulsa SC",
+      "away": "HTX North",
+      "score": "4-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T09:00",
+      "home": "Atletico Dallas",
+      "away": "Lou Fusz Gold",
+      "score": "0-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T09:00",
+      "home": "Dallas Surf",
+      "away": "RISE SC",
+      "score": "0-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T11:00",
+      "home": "Heir FC",
+      "away": "Lou Fusz White",
+      "score": "1-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T11:00",
+      "home": "Tulsa SC",
+      "away": "HTX",
+      "score": "0-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-06T12:00",
+      "home": "Oklahoma Celtic",
+      "away": "HTX North",
+      "score": "6-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-07T11:00",
+      "home": "Dallas Surf",
+      "away": "Lou Fusz Gold",
+      "score": "0-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-07T11:00",
+      "home": "Heir FC",
+      "away": "RISE SC",
+      "score": "0-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-07T13:00",
+      "home": "Atletico Dallas",
+      "away": "Lou Fusz White",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-12T11:00",
+      "home": "Oklahoma Celtic",
+      "away": "Atletico Dallas",
+      "score": "2-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-12T12:00",
+      "home": "RISE SC",
+      "away": "San Antonio City",
+      "score": "1-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-12T13:00",
+      "home": "Tulsa SC",
+      "away": "Dallas Surf",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-12T14:00",
+      "home": "HTX",
+      "away": "HTX North",
+      "score": "5-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-13T13:00",
+      "home": "Oklahoma Celtic",
+      "away": "Dallas Surf",
+      "score": "2-3",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-13T13:00",
+      "home": "Tulsa SC",
+      "away": "Atletico Dallas",
+      "score": "0-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-13T15:00",
+      "home": "HTX",
+      "away": "Heir FC",
+      "score": "7-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T09:00",
+      "home": "San Antonio City",
+      "away": "Tulsa SC",
+      "score": "2-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T12:00",
+      "home": "RISE SC",
+      "away": "Oklahoma Celtic",
+      "score": "1-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T13:00",
+      "home": "Atletico Dallas",
+      "away": "Heir FC",
+      "score": "3-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T13:00",
+      "home": "Lou Fusz Gold",
+      "away": "HTX",
+      "score": "4-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-19T15:00",
+      "home": "Lou Fusz White",
+      "away": "HTX North",
+      "score": "0-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-20T11:00",
+      "home": "Lou Fusz White",
+      "away": "HTX",
+      "score": "0-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-20T11:00",
+      "home": "San Antonio City",
+      "away": "Oklahoma Celtic",
+      "score": "2-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-20T13:00",
+      "home": "Lou Fusz Gold",
+      "away": "HTX North",
+      "score": "6-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-20T13:00",
+      "home": "RISE SC",
+      "away": "Tulsa SC",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T12:00",
+      "home": "Oklahoma Celtic",
+      "away": "Lou Fusz Gold",
+      "score": "2-8",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T12:00",
+      "home": "Tulsa SC",
+      "away": "Lou Fusz White",
+      "score": "5-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T14:00",
+      "home": "HTX",
+      "away": "Atletico Dallas",
+      "score": "3-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-26T14:00",
+      "home": "HTX North",
+      "away": "Dallas Surf",
+      "score": "3-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-27T11:00",
+      "home": "HTX",
+      "away": "Dallas Surf",
+      "score": "4-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-27T11:00",
+      "home": "Oklahoma Celtic",
+      "away": "Lou Fusz White",
+      "score": "6-4",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-27T12:00",
+      "home": "HTX North",
+      "away": "Atletico Dallas",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-09-27T13:00",
+      "home": "Tulsa SC",
+      "away": "Lou Fusz Gold",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-03T12:00",
+      "home": "Oklahoma Celtic",
+      "away": "Heir FC",
+      "score": "7-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-03T13:00",
+      "home": "Lou Fusz Gold",
+      "away": "Dallas Surf",
+      "score": "3-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-03T13:00",
+      "home": "Lou Fusz White",
+      "away": "Atletico Dallas",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-03T16:00",
+      "home": "HTX North",
+      "away": "San Antonio City",
+      "score": "0-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-04T11:00",
+      "home": "Lou Fusz Gold",
+      "away": "Atletico Dallas",
+      "score": "4-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-04T11:00",
+      "home": "Lou Fusz White",
+      "away": "Dallas Surf",
+      "score": "1-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-04T14:00",
+      "home": "Tulsa SC",
+      "away": "Heir FC",
+      "score": "3-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-10T11:00",
+      "home": "Lou Fusz Gold",
+      "away": "San Antonio City",
+      "score": "5-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-10T13:00",
+      "home": "Heir FC",
+      "away": "HTX North",
+      "score": "2-2",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-10T13:00",
+      "home": "Lou Fusz White",
+      "away": "RISE SC",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-11T11:00",
+      "home": "Lou Fusz Gold",
+      "away": "RISE SC",
+      "score": "6-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-11T11:00",
+      "home": "Lou Fusz White",
+      "away": "San Antonio City",
+      "score": "0-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-17T11:00",
+      "home": "San Antonio City",
+      "away": "RISE SC",
+      "score": "1-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-17T13:30",
+      "home": "Dallas Surf",
+      "away": "Atletico Dallas",
+      "score": "0-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-17T15:00",
+      "home": "Lou Fusz Gold",
+      "away": "Lou Fusz White",
+      "score": "8-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-17T16:00",
+      "home": "HTX North",
+      "away": "HTX",
+      "score": "0-6",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-24T09:00",
+      "home": "Heir FC",
+      "away": "Dallas Surf",
+      "score": "1-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-24T12:00",
+      "home": "HTX North",
+      "away": "Lou Fusz Gold",
+      "score": "0-8",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-24T14:00",
+      "home": "HTX",
+      "away": "Lou Fusz White",
+      "score": "5-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-10-24T14:00",
+      "home": "Tulsa SC",
+      "away": "RISE SC",
+      "score": "1-1",
+      "unofficial": false
+    }
+  ],
+  "standings": [
+    {
+      "pos": 1,
+      "team": "HTX GA 10/11",
+      "mp": 10,
+      "w": 9,
+      "l": 0,
+      "d": 1,
+      "gf": 45,
+      "ga": 8,
+      "gd": 37,
+      "ppg": "2.80"
+    },
+    {
+      "pos": 2,
+      "team": "Lou Fusz Athletic GA 10/11 Gold",
+      "mp": 14,
+      "w": 12,
+      "l": 0,
+      "d": 2,
+      "gf": 72,
+      "ga": 8,
+      "gd": 64,
+      "ppg": "2.71"
+    },
+    {
+      "pos": 3,
+      "team": "San Antonio City SC GA 10/11",
+      "mp": 9,
+      "w": 5,
+      "l": 1,
+      "d": 3,
+      "gf": 10,
+      "ga": 9,
+      "gd": 1,
+      "ppg": "2.00"
+    },
+    {
+      "pos": 4,
+      "team": "Atletico Dallas Youth GA 10/11",
+      "mp": 12,
+      "w": 6,
+      "l": 3,
+      "d": 3,
+      "gf": 15,
+      "ga": 13,
+      "gd": 2,
+      "ppg": "1.75"
+    },
+    {
+      "pos": 5,
+      "team": "Tulsa Soccer Club GA 10/11",
+      "mp": 10,
+      "w": 4,
+      "l": 4,
+      "d": 2,
+      "gf": 17,
+      "ga": 13,
+      "gd": 4,
+      "ppg": "1.40"
+    },
+    {
+      "pos": 6,
+      "team": "Oklahoma Celtic GA 10/11",
+      "mp": 9,
+      "w": 4,
+      "l": 5,
+      "d": 0,
+      "gf": 31,
+      "ga": 31,
+      "gd": 0,
+      "ppg": "1.33"
+    },
+    {
+      "pos": 7,
+      "team": "Dallas Surf GA 10/11",
+      "mp": 12,
+      "w": 4,
+      "l": 7,
+      "d": 1,
+      "gf": 13,
+      "ga": 22,
+      "gd": -9,
+      "ppg": "1.08"
+    },
+    {
+      "pos": 8,
+      "team": "HTX GA 10/11 North",
+      "mp": 11,
+      "w": 2,
+      "l": 7,
+      "d": 2,
+      "gf": 16,
+      "ga": 41,
+      "gd": -25,
+      "ppg": "0.73"
+    },
+    {
+      "pos": 9,
+      "team": "RISE Soccer Club GA 10/11",
+      "mp": 10,
+      "w": 1,
+      "l": 6,
+      "d": 3,
+      "gf": 5,
+      "ga": 17,
+      "gd": -12,
+      "ppg": "0.60"
+    },
+    {
+      "pos": 10,
+      "team": "Lou Fusz Athletic GA 10/11 White",
+      "mp": 14,
+      "w": 2,
+      "l": 10,
+      "d": 2,
+      "gf": 15,
+      "ga": 50,
+      "gd": -35,
+      "ppg": "0.57"
+    },
+    {
+      "pos": 11,
+      "team": "Heir FC GA 10/11",
+      "mp": 11,
+      "w": 1,
+      "l": 7,
+      "d": 3,
+      "gf": 7,
+      "ga": 34,
+      "gd": -27,
+      "ppg": "0.55"
+    }
+  ],
+  "notes": [
+    {
+      "text": "Lou Fusz Athletic midfielder Jordan Duffing was called into the U.S. U-16 Girls' National Team training camp in Fayetteville, GA, Sept 1-8. The roster does not say whether she plays for the Gold or White team. She is the only Frontier Conference player on either the U-16 or U-15 camp roster.",
+      "source": "https://www.soccerwire.com/news/rosters-u-s-u-16-and-u-15-girls-national-teams-to-hold-concurrent-camp-with-48-total-players/"
+    }
+  ],
+  "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
+  "roundup": {
+    "week": "Week of Oct 19",
+    "lines": [
+      "No match for Tulsa again last weekend, so the record stays 4-4-1 from nine games, 16 scored and 12 conceded. Oct 24 will be the first game in three weeks.",
+      "Tulsa hold 5th of 11 on 1.44 points per game, and the cushion grew: Dallas Surf lost 0-1 at home to Atletico Dallas and slipped to 1.18, while Oklahoma Celtic were idle on 1.33.",
+      "Atletico Dallas were the weekend's winners, up to 1.75 and still 4th. Lou Fusz Gold beat Lou Fusz White 8-1 and HTX won 6-0 at HTX North, so the top two keep pulling away from the pack.",
+      "Saturday's San Antonio City against RISE SC still has no score posted two days on, and GotSport quietly rescored Lou Fusz White's Oct 10 win over RISE from 3-0 to 2-0.",
+      "Next up is RISE SC at home on Sat Oct 24 at 2:00. RISE sit 10th on 0.63 with four goals in eight games and have lost their last two 2-0 and 6-0, but they did win 2-0 at home over Tulsa in September."
+    ]
+  },
+  "staff": [
+    {
+      "name": "Nathan Doll",
+      "role": "Coach"
+    },
+    {
+      "name": "Cyprian Hedrick",
+      "role": "Coach"
+    },
+    {
+      "name": "Jacob Feener",
+      "role": "Coach"
+    },
+    {
+      "name": "Eric Edwards",
+      "role": "Manager"
+    }
+  ],
+  "checked": "2026-10-25T13:07:12Z"
+}
