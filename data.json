@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T13:07:12Z",
+  "updated": "2026-10-25T14:07:03Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -10,7 +10,7 @@
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th on 1.40 points per game; Oklahoma Celtic are 6th on 1.33 and Dallas Surf 7th on 1.08, with goal difference +4"
+    "note": "holds 5th on 1.40 points per game; Oklahoma Celtic are 6th on 1.20 and Dallas Surf 7th on 1.08, with goal difference +4"
   },
   "standingsNote": "Through Sat Oct 24 · as posted on GotSport Sun Oct 25 morning",
   "fixtures": [
@@ -583,6 +583,13 @@
       "unofficial": false
     },
     {
+      "t": "2026-10-24T10:00",
+      "home": "Oklahoma Celtic",
+      "away": "San Antonio City",
+      "score": "0-3",
+      "unofficial": false
+    },
+    {
       "t": "2026-10-24T12:00",
       "home": "HTX North",
       "away": "Lou Fusz Gold",
@@ -632,14 +639,14 @@
     {
       "pos": 3,
       "team": "San Antonio City SC GA 10/11",
-      "mp": 9,
-      "w": 5,
+      "mp": 10,
+      "w": 6,
       "l": 1,
       "d": 3,
-      "gf": 10,
+      "gf": 13,
       "ga": 9,
-      "gd": 1,
-      "ppg": "2.00"
+      "gd": 4,
+      "ppg": "2.10"
     },
     {
       "pos": 4,
@@ -668,14 +675,14 @@
     {
       "pos": 6,
       "team": "Oklahoma Celtic GA 10/11",
-      "mp": 9,
+      "mp": 10,
       "w": 4,
-      "l": 5,
+      "l": 6,
       "d": 0,
       "gf": 31,
-      "ga": 31,
-      "gd": 0,
-      "ppg": "1.33"
+      "ga": 34,
+      "gd": -3,
+      "ppg": "1.20"
     },
     {
       "pos": 7,
@@ -773,5 +780,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-25T13:07:12Z"
+  "checked": "2026-10-25T14:07:03Z"
 }
