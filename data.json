@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-25T22:05:00Z",
+  "updated": "2026-10-25T23:05:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 4,
     "d": 2,
-    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24; Sunday's San Antonio City match still not scored on GotSport as of 5:05pm CT"
+    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24; Sunday's San Antonio City match still not scored on GotSport as of 6:05pm CT"
   },
   "position": {
     "rank": 5,
     "of": 11,
     "note": "holds 5th on 1.40 points per game, with Oklahoma Celtic 6th on 1.36 after their 3-1 win over RISE SC and a game more played; Dallas Surf 7th on 1.08, goal difference +4"
   },
-  "standingsNote": "Through Sun Oct 25 afternoon · as posted on GotSport Sun Oct 25 5:05pm CT",
+  "standingsNote": "Through Sun Oct 25 afternoon · as posted on GotSport Sun Oct 25 6:05pm CT",
   "fixtures": [
     {"t": "2026-09-05T13:00", "opp": "HTX GA 10/11 North", "ha": "H", "venue": "Scheels Sports Complex · JSC #11", "score": "4-1", "unofficial": false},
     {"t": "2026-09-06T11:00", "opp": "HTX GA 10/11", "ha": "H", "venue": "Scheels Sports Complex · JSC #10", "score": "0-3", "unofficial": false},
@@ -98,7 +98,9 @@
     {"t": "2026-10-24T12:00", "home": "HTX North", "away": "Lou Fusz Gold", "score": "0-8", "unofficial": false},
     {"t": "2026-10-24T14:00", "home": "HTX", "away": "Lou Fusz White", "score": "5-1", "unofficial": false},
     {"t": "2026-10-24T14:00", "home": "Tulsa SC", "away": "RISE SC", "score": "1-1", "unofficial": false},
+    {"t": "2026-10-25T11:00", "home": "HTX", "away": "Lou Fusz Gold", "score": "", "unofficial": false},
     {"t": "2026-10-25T11:00", "home": "Oklahoma Celtic", "away": "RISE SC", "score": "3-1", "unofficial": false},
+    {"t": "2026-10-25T11:00", "home": "Tulsa SC", "away": "San Antonio City", "score": "", "unofficial": false},
     {"t": "2026-10-25T13:00", "home": "HTX North", "away": "Lou Fusz White", "score": "4-1", "unofficial": false}
   ],
   "standings": [
@@ -137,5 +139,5 @@
     {"name": "Jacob Feener", "role": "Coach"},
     {"name": "Eric Edwards", "role": "Manager"}
   ],
-  "checked": "2026-10-25T22:05:00Z"
+  "checked": "2026-10-25T23:05:00Z"
 }
