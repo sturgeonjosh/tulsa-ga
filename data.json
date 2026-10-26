@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-26T01:10:00Z",
+  "updated": "2026-10-26T12:20:17Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
-    "w": 4,
+    "w": 5,
     "l": 4,
-    "d": 2,
-    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24; Sunday’s San Antonio City match still not scored on GotSport as of 8:10pm CT"
+    "d": 1,
+    "note": "5-4-1 from ten games. GotSport rescored the Oct 24 home match with RISE SC from a 1-1 draw to a 2-1 Tulsa win, which turned last week’s draw into three points. Sunday’s home game with San Antonio City still has no score posted."
   },
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th on 1.40 points per game; Oklahoma Celtic 6th on 1.36, Dallas Surf 7th on 1.08, goal difference +4"
+    "note": "holds 5th on 1.60 points per game, up from 1.40 a week ago; Atletico Dallas 4th on 1.75, Oklahoma Celtic 6th on 1.36, goal difference +5"
   },
-  "standingsNote": "Through Sun Oct 25 · as posted on GotSport Sun Oct 25 8:10pm CT",
+  "standingsNote": "Through Sun Oct 25 · as posted on GotSport Mon Oct 26 7:25am CT",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -91,7 +91,7 @@
       "opp": "RISE Soccer Club GA 10/11",
       "ha": "H",
       "venue": "Scheels Sports Complex · JSC #1 Turf",
-      "score": "1-1",
+      "score": "2-1",
       "unofficial": false
     },
     {
@@ -607,7 +607,7 @@
       "t": "2026-10-24T14:00",
       "home": "Tulsa SC",
       "away": "RISE SC",
-      "score": "1-1",
+      "score": "2-1",
       "unofficial": false
     },
     {
@@ -692,13 +692,13 @@
       "pos": 5,
       "team": "Tulsa Soccer Club GA 10/11",
       "mp": 10,
-      "w": 4,
+      "w": 5,
       "l": 4,
-      "d": 2,
-      "gf": 17,
+      "d": 1,
+      "gf": 18,
       "ga": 13,
-      "gd": 4,
-      "ppg": "1.40"
+      "gd": 5,
+      "ppg": "1.60"
     },
     {
       "pos": 6,
@@ -738,18 +738,6 @@
     },
     {
       "pos": 9,
-      "team": "RISE Soccer Club GA 10/11",
-      "mp": 11,
-      "w": 1,
-      "l": 7,
-      "d": 3,
-      "gf": 6,
-      "ga": 20,
-      "gd": -14,
-      "ppg": "0.55"
-    },
-    {
-      "pos": 10,
       "team": "Heir FC GA 10/11",
       "mp": 11,
       "w": 1,
@@ -761,7 +749,7 @@
       "ppg": "0.55"
     },
     {
-      "pos": 11,
+      "pos": 10,
       "team": "Lou Fusz Athletic GA 10/11 White",
       "mp": 15,
       "w": 2,
@@ -771,23 +759,43 @@
       "ga": 54,
       "gd": -38,
       "ppg": "0.53"
+    },
+    {
+      "pos": 11,
+      "team": "RISE Soccer Club GA 10/11",
+      "mp": 11,
+      "w": 1,
+      "l": 8,
+      "d": 2,
+      "gf": 6,
+      "ga": 21,
+      "gd": -15,
+      "ppg": "0.45"
     }
   ],
   "notes": [
     {
-      "text": "Lou Fusz Athletic midfielder Jordan Duffing was called into the U.S. U-16 Girls' National Team training camp in Fayetteville, GA, Sept 1-8. The roster does not say whether she plays for the Gold or White team. She is the only Frontier Conference player on either the U-16 or U-15 camp roster.",
+      "text": "Lou Fusz Athletic midfielder Jordan Duffing was called into the U.S. U-16 Girls’ National Team training camp in Fayetteville, GA, Sept 1-8. The roster does not say whether she plays for the Gold or White team. She is the only Frontier Conference player on either the U-16 or U-15 camp roster.",
       "source": "https://www.soccerwire.com/news/rosters-u-s-u-16-and-u-15-girls-national-teams-to-hold-concurrent-camp-with-48-total-players/"
+    },
+    {
+      "text": "U.S. Soccer named a 24-player roster for the U-16 Girls’ National Team camp in Kansas City, Oct 23-31, including two matches against England U-16 on Oct 27 and Oct 30. No Frontier Conference player is on it, and Jordan Duffing is not among the names.",
+      "source": "https://www.soccerwire.com/news/u-s-u-16-girls-national-team-roster-selected-for-october-camp-in-kansas-city/"
+    },
+    {
+      "text": "GA has announced its inaugural Frontier Summit for Nov 14-15 in The Woodlands, Texas. Tulsa’s two November fixtures, against HTX and HTX North, are part of it.",
+      "source": "https://girlsacademyleague.com/"
     }
   ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Oct 19",
+    "week": "Week of Oct 26",
     "lines": [
-      "No match for Tulsa again last weekend, so the record stays 4-4-1 from nine games, 16 scored and 12 conceded. Oct 24 will be the first game in three weeks.",
-      "Tulsa hold 5th of 11 on 1.44 points per game, and the cushion grew: Dallas Surf lost 0-1 at home to Atletico Dallas and slipped to 1.18, while Oklahoma Celtic were idle on 1.33.",
-      "Atletico Dallas were the weekend's winners, up to 1.75 and still 4th. Lou Fusz Gold beat Lou Fusz White 8-1 and HTX won 6-0 at HTX North, so the top two keep pulling away from the pack.",
-      "Saturday's San Antonio City against RISE SC still has no score posted two days on, and GotSport quietly rescored Lou Fusz White's Oct 10 win over RISE from 3-0 to 2-0.",
-      "Next up is RISE SC at home on Sat Oct 24 at 2:00. RISE sit 10th on 0.63 with four goals in eight games and have lost their last two 2-0 and 6-0, but they did win 2-0 at home over Tulsa in September."
+      "Tulsa beat RISE SC 2-1 at home on Sat Oct 24. GotSport had it as a 1-1 draw all weekend and rescored it to the win, so the record is now 5-4-1 from ten games with 18 scored and 13 conceded.",
+      "Sunday’s home game with San Antonio City still has no score on GotSport a day later, so it is not in the table yet.",
+      "Tulsa hold 5th of 11 and the cushion grew with the extra two points: 1.60 points per game against Oklahoma Celtic’s 1.36, with a goal difference of +5.",
+      "The rescore pushed RISE SC to the bottom on 0.45, below Lou Fusz White and Heir FC. Elsewhere HTX dropped points for the first time since September, drawing 2-2 at home with Lou Fusz Gold, who are still unbeaten.",
+      "Next is a double away weekend in St. Louis: Lou Fusz Gold on Sat Oct 31 at 1:00 and Lou Fusz White on Sun Nov 1 at 1:00. Gold are 12-0-3 with 74 goals in 15 games and beat HTX North 8-0 on Oct 24; White have lost eleven and conceded 54, and lost 4-1 at HTX North on Oct 25."
     ]
   },
   "staff": [
@@ -808,5 +816,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-26T04:11:56Z"
+  "checked": "2026-10-26T12:20:17Z"
 }
