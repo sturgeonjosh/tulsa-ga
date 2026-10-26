@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-25T23:05:00Z",
+  "updated": "2026-10-26T01:10:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 4,
     "d": 2,
-    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24; Sunday's San Antonio City match still not scored on GotSport as of 6:05pm CT"
+    "note": "4-4-2 after the 1-1 draw with RISE SC at home on Sat Oct 24; Sunday’s San Antonio City match still not scored on GotSport as of 8:10pm CT"
   },
   "position": {
     "rank": 5,
     "of": 11,
-    "note": "holds 5th on 1.40 points per game, with Oklahoma Celtic 6th on 1.36 after their 3-1 win over RISE SC and a game more played; Dallas Surf 7th on 1.08, goal difference +4"
+    "note": "holds 5th on 1.40 points per game; Oklahoma Celtic 6th on 1.36, Dallas Surf 7th on 1.08, goal difference +4"
   },
-  "standingsNote": "Through Sun Oct 25 afternoon · as posted on GotSport Sun Oct 25 6:05pm CT",
+  "standingsNote": "Through Sun Oct 25 · as posted on GotSport Sun Oct 25 8:10pm CT",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -614,7 +614,7 @@
       "t": "2026-10-25T11:00",
       "home": "HTX",
       "away": "Lou Fusz Gold",
-      "score": "",
+      "score": "2-2",
       "unofficial": false
     },
     {
@@ -643,26 +643,26 @@
     {
       "pos": 1,
       "team": "HTX GA 10/11",
-      "mp": 10,
+      "mp": 11,
       "w": 9,
       "l": 0,
-      "d": 1,
-      "gf": 45,
-      "ga": 8,
+      "d": 2,
+      "gf": 47,
+      "ga": 10,
       "gd": 37,
-      "ppg": "2.80"
+      "ppg": "2.64"
     },
     {
       "pos": 2,
       "team": "Lou Fusz Athletic GA 10/11 Gold",
-      "mp": 14,
+      "mp": 15,
       "w": 12,
       "l": 0,
-      "d": 2,
-      "gf": 72,
-      "ga": 8,
+      "d": 3,
+      "gf": 74,
+      "ga": 10,
       "gd": 64,
-      "ppg": "2.71"
+      "ppg": "2.60"
     },
     {
       "pos": 3,
@@ -808,5 +808,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-10-26T00:11:53Z"
+  "checked": "2026-10-26T01:10:00Z"
 }
