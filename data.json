@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-01T21:07:15Z",
+  "updated": "2026-11-02T00:13:21Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 6,
-    "d": 2,
-    "note": "4-6-2 from twelve games, 17 scored and 21 conceded. GotSport has now posted Saturday's away game at Lou Fusz Gold, a 6-0 loss. Sunday's away game at Lou Fusz White is not scored yet."
+    "d": 3,
+    "note": "4-6-3 from thirteen games, 18 scored and 22 conceded. Sunday's away game at Lou Fusz White finished 1-1."
   },
   "position": {
     "rank": 6,
     "of": 11,
-    "note": "6th on 1.17 points per game; Oklahoma Celtic 5th on 1.36, Dallas Surf 7th on 1.00, goal difference -4"
+    "note": "6th on 1.15 points per game; Oklahoma Celtic 5th on 1.36, Dallas Surf 7th on 1.00, goal difference -4"
   },
-  "standingsNote": "Through Sat Oct 31 · as posted on GotSport Sun Nov 1 3:05pm CT",
+  "standingsNote": "Through Sun Nov 1 · as posted on GotSport Sun Nov 1 6:10pm CT",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -115,7 +115,7 @@
       "opp": "Lou Fusz Athletic GA 10/11 White",
       "ha": "A",
       "venue": "Lou Fusz Soccer Complex · #6 · St. Louis, MO",
-      "score": "",
+      "score": "1-1",
       "unofficial": false
     },
     {
@@ -651,6 +651,20 @@
       "away": "Tulsa SC",
       "score": "6-0",
       "unofficial": false
+    },
+    {
+      "t": "2026-11-01T09:00",
+      "home": "Dallas Surf",
+      "away": "HTX North",
+      "score": "1-1",
+      "unofficial": false
+    },
+    {
+      "t": "2026-11-01T13:00",
+      "home": "Lou Fusz White",
+      "away": "Tulsa SC",
+      "score": "1-1",
+      "unofficial": false
     }
   ],
   "standings": [
@@ -717,36 +731,36 @@
     {
       "pos": 6,
       "team": "Tulsa Soccer Club GA 10/11",
-      "mp": 12,
+      "mp": 13,
       "w": 4,
       "l": 6,
-      "d": 2,
-      "gf": 17,
-      "ga": 21,
+      "d": 3,
+      "gf": 18,
+      "ga": 22,
       "gd": -4,
-      "ppg": "1.17"
+      "ppg": "1.15"
     },
     {
       "pos": 7,
       "team": "Dallas Surf GA 10/11",
-      "mp": 13,
+      "mp": 14,
       "w": 4,
       "l": 8,
-      "d": 1,
-      "gf": 14,
-      "ga": 25,
+      "d": 2,
+      "gf": 15,
+      "ga": 26,
       "gd": -11,
       "ppg": "1.00"
     },
     {
       "pos": 8,
       "team": "HTX GA 10/11 North",
-      "mp": 12,
+      "mp": 13,
       "w": 3,
       "l": 7,
-      "d": 2,
-      "gf": 20,
-      "ga": 42,
+      "d": 3,
+      "gf": 21,
+      "ga": 43,
       "gd": -22,
       "ppg": "0.92"
     },
@@ -764,6 +778,18 @@
     },
     {
       "pos": 10,
+      "team": "Lou Fusz Athletic GA 10/11 White",
+      "mp": 16,
+      "w": 2,
+      "l": 11,
+      "d": 3,
+      "gf": 17,
+      "ga": 55,
+      "gd": -38,
+      "ppg": "0.56"
+    },
+    {
+      "pos": 11,
       "team": "Heir FC GA 10/11",
       "mp": 11,
       "w": 1,
@@ -773,18 +799,6 @@
       "ga": 34,
       "gd": -27,
       "ppg": "0.55"
-    },
-    {
-      "pos": 11,
-      "team": "Lou Fusz Athletic GA 10/11 White",
-      "mp": 15,
-      "w": 2,
-      "l": 11,
-      "d": 2,
-      "gf": 16,
-      "ga": 54,
-      "gd": -38,
-      "ppg": "0.53"
     }
   ],
   "notes": [
@@ -830,5 +844,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-01T23:07:03Z"
+  "checked": "2026-11-02T00:13:21Z"
 }
