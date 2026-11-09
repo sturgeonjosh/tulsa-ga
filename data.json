@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-08T03:15:00Z",
+  "updated": "2026-11-09T12:20:00Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
     "l": 6,
     "d": 3,
-    "note": "4-6-3 from thirteen games, 18 scored and 22 conceded. The St. Louis double weekend brought a 0-6 loss at Lou Fusz Gold and a 1-1 draw at Lou Fusz White."
+    "note": "4-6-3 from thirteen games, 18 scored and 22 conceded. No match last weekend; the last outing was the St. Louis double, a 0-6 loss at Lou Fusz Gold and a 1-1 draw at Lou Fusz White."
   },
   "position": {
     "rank": 6,
     "of": 11,
     "note": "6th on 1.15 points per game, goal difference -4; Oklahoma Celtic 5th on 1.36, Dallas Surf 7th on 1.13"
   },
-  "standingsNote": "Through Sat Nov 7 · as posted on GotSport Sun Nov 8 6:09pm CT · San Antonio City v Atletico Dallas (Sat) and today’s three conference games not yet posted",
+  "standingsNote": "Through Sun Nov 8 · as posted on GotSport Mon Nov 9 6:20am CT · San Antonio City v Atletico Dallas (Nov 7), Heir FC v HTX and San Antonio City v Dallas Surf (Nov 8) not yet posted",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -693,6 +693,13 @@
       "away": "Dallas Surf",
       "score": "0-1",
       "unofficial": false
+    },
+    {
+      "t": "2026-11-08T12:00",
+      "home": "RISE SC",
+      "away": "Atletico Dallas",
+      "score": "0-2",
+      "unofficial": false
     }
   ],
   "standings": [
@@ -735,14 +742,14 @@
     {
       "pos": 4,
       "team": "Atletico Dallas Youth GA 10/11",
-      "mp": 14,
-      "w": 6,
+      "mp": 15,
+      "w": 7,
       "l": 3,
       "d": 5,
-      "gf": 16,
+      "gf": 18,
       "ga": 14,
-      "gd": 2,
-      "ppg": "1.64"
+      "gd": 4,
+      "ppg": "1.73"
     },
     {
       "pos": 5,
@@ -794,18 +801,6 @@
     },
     {
       "pos": 9,
-      "team": "RISE Soccer Club GA 10/11",
-      "mp": 12,
-      "w": 1,
-      "l": 7,
-      "d": 4,
-      "gf": 6,
-      "ga": 20,
-      "gd": -14,
-      "ppg": "0.58"
-    },
-    {
-      "pos": 10,
       "team": "Lou Fusz Athletic GA 10/11 White",
       "mp": 16,
       "w": 2,
@@ -815,6 +810,18 @@
       "ga": 55,
       "gd": -38,
       "ppg": "0.56"
+    },
+    {
+      "pos": 10,
+      "team": "RISE Soccer Club GA 10/11",
+      "mp": 13,
+      "w": 1,
+      "l": 8,
+      "d": 4,
+      "gf": 6,
+      "ga": 22,
+      "gd": -16,
+      "ppg": "0.54"
     },
     {
       "pos": 11,
@@ -845,17 +852,21 @@
     {
       "text": "GA has announced a Champions Cup Showcase Qualifier, dated Oct 13. Eight eligible teams in each of U15, U16 and U17 will play inside the top competition groups at Winter Showcase, with the bracket winner earning an automatic berth to the Champions Cup Showcase at the March 2027 Champions Cup Finals. Neither the Frontier Conference nor Tulsa is named in the announcement.",
       "source": "https://girlsacademyleague.com/2026/10/champions-cup-showcase-qualifier-announced/"
+    },
+    {
+      "text": "GA opened club membership applications for the 2027-28 season on Nov 2. The announcement is league-wide and names no Frontier Conference club.",
+      "source": "https://girlsacademyleague.com/"
     }
   ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Nov 2",
+    "week": "Week of Nov 9",
     "lines": [
-      "A hard double weekend in St. Louis. Saturday was a 0-6 loss at Lou Fusz Gold, the heaviest of the season; Sunday was a 1-1 draw at Lou Fusz White.",
-      "That leaves Tulsa at 4-6-3 from thirteen games, 18 scored and 22 conceded, goal difference -4.",
-      "Tulsa hold 6th of 11 but slip from 1.27 to 1.15 points per game. Oklahoma Celtic stay 5th on 1.36 and Dallas Surf are 7th on 1.00.",
-      "Atletico Dallas's two weekend results have now been posted: a 0-0 draw with HTX North on Saturday and a 1-1 draw with HTX on Sunday. Those two dropped points move Lou Fusz Gold above HTX at the top, 2.63 to 2.54, and lift Atletico to 4th on 1.64. GotSport also corrected Oklahoma Celtic's Oct 25 win over RISE from 5-1 to 3-1.",
-      "No game this weekend. Tulsa are back on Sat Nov 14 at 8:00am against HTX at the Frontier Summit in The Woodlands, Texas. HTX are unbeaten at 10-0-3 with 51 goals and 12 conceded in 13 games. Sunday's match with HTX North has moved to Gosling Sportsfields, Gosling #3."
+      "Tulsa had the weekend off after the St. Louis double, so the record stays 4-6-3 and the team holds 6th of 11 on 1.15 points per game.",
+      "Only one conference result from the weekend has been posted: Atletico Dallas won 2-0 at RISE SC, which lifted Atletico to 1.73 points per game in 4th.",
+      "That defeat dropped RISE SC from 9th to 10th, below Lou Fusz White on points per game; nothing else in the table moved.",
+      "Three weekend games are still unposted on GotSport: San Antonio City v Atletico Dallas, Heir FC v HTX and San Antonio City v Dallas Surf.",
+      "Next up is the Frontier Summit in The Woodlands, Texas: HTX on Sat Nov 14 at 8:00am, then HTX North on Sun Nov 15 at 8:00am. HTX are 2nd on 2.54 points per game and still unbeaten after 13, and they won 3-0 in Tulsa in September; HTX North are 8th and lost 4-1 in Tulsa in the season opener."
     ]
   },
   "staff": [
@@ -876,5 +887,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-09T04:11:37Z"
+  "checked": "2026-11-09T12:20:00Z"
 }
