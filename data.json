@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T01:04:28Z",
+  "updated": "2026-11-14T16:27:08Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -119,7 +119,7 @@
       "unofficial": false
     },
     {
-      "t": "2026-11-14T08:00",
+      "t": "2026-11-14T10:00",
       "opp": "HTX GA 10/11 (Frontier Summit)",
       "ha": "A",
       "venue": "Gosling Sportsfields · Gosling #1 · The Woodlands, TX",
@@ -908,5 +908,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-12T01:05:36Z"
+  "checked": "2026-11-14T16:27:08Z"
 }
