@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-15T13:06:24Z",
+  "updated": "2026-11-19T04:30:12Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
-    "l": 7,
+    "l": 8,
     "d": 3,
-    "note": "4-7-3 from fourteen games, 19 scored and 27 conceded. Lost 1-5 to HTX on Saturday at the Frontier Summit in The Woodlands; HTX North follows on Sunday at 8:00am at the same complex."
+    "note": "4-8-3 from fifteen games, 19 scored and 29 conceded. Lost both Frontier Summit games in The Woodlands: 1-5 to HTX on Saturday and 0-2 to HTX North on Sunday."
   },
   "position": {
-    "rank": 7,
+    "rank": 8,
     "of": 11,
-    "note": "7th on 1.07 points per game, goal difference -8; Dallas Surf 6th on 1.13, HTX North 8th on 0.93"
+    "note": "8th on 1.00 points per game, goal difference -10; HTX North 7th on 1.06, Lou Fusz White 9th on 0.56"
   },
-  "standingsNote": "Through Sat Nov 14 · as posted on GotSport Sun Nov 15",
+  "standingsNote": "Through Sun Nov 15 · as posted on GotSport Wed Nov 18",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -131,7 +131,7 @@
       "opp": "HTX GA 10/11 North (Frontier Summit)",
       "ha": "A",
       "venue": "Gosling Sportsfields · Gosling #3 · The Woodlands, TX",
-      "score": "",
+      "score": "0-2",
       "unofficial": false
     },
     {
@@ -735,6 +735,20 @@
       "away": "Oklahoma Celtic",
       "score": "1-1",
       "unofficial": false
+    },
+    {
+      "t": "2026-11-15T08:00",
+      "home": "HTX North",
+      "away": "Tulsa SC",
+      "score": "2-0",
+      "unofficial": false
+    },
+    {
+      "t": "2026-11-15T12:00",
+      "home": "HTX",
+      "away": "Oklahoma Celtic",
+      "score": "4-2",
+      "unofficial": false
     }
   ],
   "standings": [
@@ -753,14 +767,14 @@
     {
       "pos": 2,
       "team": "HTX GA 10/11",
-      "mp": 15,
-      "w": 12,
+      "mp": 16,
+      "w": 13,
       "l": 0,
       "d": 3,
-      "gf": 63,
-      "ga": 14,
-      "gd": 49,
-      "ppg": "2.60"
+      "gf": 67,
+      "ga": 16,
+      "gd": 51,
+      "ppg": "2.63"
     },
     {
       "pos": 3,
@@ -789,14 +803,14 @@
     {
       "pos": 5,
       "team": "Oklahoma Celtic GA 10/11",
-      "mp": 12,
+      "mp": 13,
       "w": 5,
-      "l": 6,
+      "l": 7,
       "d": 1,
-      "gf": 35,
-      "ga": 36,
-      "gd": -1,
-      "ppg": "1.33"
+      "gf": 37,
+      "ga": 40,
+      "gd": -3,
+      "ppg": "1.23"
     },
     {
       "pos": 6,
@@ -812,27 +826,27 @@
     },
     {
       "pos": 7,
-      "team": "Tulsa Soccer Club GA 10/11",
-      "mp": 14,
+      "team": "HTX GA 10/11 North",
+      "mp": 16,
       "w": 4,
       "l": 7,
-      "d": 3,
-      "gf": 19,
-      "ga": 27,
-      "gd": -8,
-      "ppg": "1.07"
+      "d": 5,
+      "gf": 24,
+      "ga": 44,
+      "gd": -20,
+      "ppg": "1.06"
     },
     {
       "pos": 8,
-      "team": "HTX GA 10/11 North",
+      "team": "Tulsa Soccer Club GA 10/11",
       "mp": 15,
-      "w": 3,
-      "l": 7,
-      "d": 5,
-      "gf": 22,
-      "ga": 44,
-      "gd": -22,
-      "ppg": "0.93"
+      "w": 4,
+      "l": 8,
+      "d": 3,
+      "gf": 19,
+      "ga": 29,
+      "gd": -10,
+      "ppg": "1.00"
     },
     {
       "pos": 9,
@@ -895,13 +909,13 @@
   ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Nov 9",
+    "week": "Week of Nov 16",
     "lines": [
-      "Catch-up check: the three weekend games that were missing on Monday have now been posted, plus two scores were corrected.",
-      "San Antonio City 0-2 Atletico Dallas (Nov 7), Heir FC 1-7 HTX (Nov 8) and San Antonio City 0-0 Dallas Surf (Nov 8).",
-      "Corrections: RISE SC's loss to Dallas Surf is now 0-3 (was 0-1) and the RISE SC loss to Atletico Dallas is now 0-4 (was 0-2).",
-      "Tulsa are unaffected and stay 6th of 11 on 1.15 points per game, record 4-6-3. Nobody moved position: HTX are now 2.57, San Antonio City 1.86, Atletico Dallas 1.81, Heir FC down to 0.46.",
-      "Next up is the Frontier Summit in The Woodlands, Texas: HTX on Sat Nov 14 at 10:00am (pushed back two hours from 8:00am), then HTX North on Sun Nov 15 at 8:00am. HTX are 2nd and still unbeaten after 14, and they won 3-0 in Tulsa in September; HTX North are 8th and lost 4-1 in Tulsa in the season opener."
+      "Frontier Summit in The Woodlands: Tulsa lost 1-5 to HTX on Saturday and 0-2 to HTX North on Sunday.",
+      "Tulsa are 4-8-3 and drop from 6th to 8th of 11 on 1.00 points per game. Dallas Surf are 6th on 1.13 and HTX North moved up to 7th on 1.06.",
+      "Elsewhere at the Summit: HTX North 1-1 Oklahoma Celtic and HTX 4-2 Oklahoma Celtic. HTX are level with Lou Fusz Gold at the top on 2.63 and still unbeaten after 16.",
+      "Four games were postponed: San Antonio City and RISE SC each against Lou Fusz Gold and Lou Fusz White.",
+      "Tulsa are off until Dec 12, away to Atletico Dallas at 10:00am, then Dallas Surf on Dec 13 at 9:00am. Atletico Dallas are 4th and won 2-0 in Tulsa in September; Tulsa beat Dallas Surf 2-0 at home that same weekend."
     ]
   },
   "staff": [
@@ -922,5 +936,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-15T19:31:53Z"
+  "checked": "2026-11-19T04:30:12Z"
 }
