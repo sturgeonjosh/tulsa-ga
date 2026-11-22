@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T04:30:12Z",
+  "updated": "2026-11-22T04:10:13Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -12,7 +12,7 @@
     "of": 11,
     "note": "8th on 1.00 points per game, goal difference -10; HTX North 7th on 1.06, Lou Fusz White 9th on 0.56"
   },
-  "standingsNote": "Through Sun Nov 15 · as posted on GotSport Wed Nov 18",
+  "standingsNote": "Through Sat Nov 21 · as posted on GotSport Sat Nov 21",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -749,11 +749,30 @@
       "away": "Oklahoma Celtic",
       "score": "4-2",
       "unofficial": false
+    },
+    {
+      "t": "2026-11-21T13:00",
+      "home": "HTX",
+      "away": "San Antonio City",
+      "score": "2-0",
+      "unofficial": false
     }
   ],
   "standings": [
     {
       "pos": 1,
+      "team": "HTX GA 10/11",
+      "mp": 17,
+      "w": 14,
+      "l": 0,
+      "d": 3,
+      "gf": 69,
+      "ga": 16,
+      "gd": 53,
+      "ppg": "2.65"
+    },
+    {
+      "pos": 2,
       "team": "Lou Fusz Athletic GA 10/11 Gold",
       "mp": 16,
       "w": 13,
@@ -765,31 +784,7 @@
       "ppg": "2.63"
     },
     {
-      "pos": 2,
-      "team": "HTX GA 10/11",
-      "mp": 16,
-      "w": 13,
-      "l": 0,
-      "d": 3,
-      "gf": 67,
-      "ga": 16,
-      "gd": 51,
-      "ppg": "2.63"
-    },
-    {
       "pos": 3,
-      "team": "San Antonio City SC GA 10/11",
-      "mp": 14,
-      "w": 7,
-      "l": 2,
-      "d": 5,
-      "gf": 18,
-      "ga": 13,
-      "gd": 5,
-      "ppg": "1.86"
-    },
-    {
-      "pos": 4,
       "team": "Atletico Dallas Youth GA 10/11",
       "mp": 16,
       "w": 8,
@@ -799,6 +794,18 @@
       "ga": 14,
       "gd": 8,
       "ppg": "1.81"
+    },
+    {
+      "pos": 4,
+      "team": "San Antonio City SC GA 10/11",
+      "mp": 15,
+      "w": 7,
+      "l": 3,
+      "d": 5,
+      "gf": 18,
+      "ga": 15,
+      "gd": 3,
+      "ppg": "1.73"
     },
     {
       "pos": 5,
@@ -936,5 +943,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-22T03:09:11Z"
+  "checked": "2026-11-22T04:10:13Z"
 }
