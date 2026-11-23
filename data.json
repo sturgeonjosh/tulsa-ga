@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T03:09:13Z",
+  "updated": "2026-11-23T05:09:28Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -10,7 +10,7 @@
   "position": {
     "rank": 8,
     "of": 11,
-    "note": "8th on 1.00 points per game, goal difference -10; Dallas Surf 7th on 1.13, Lou Fusz White 9th on 0.56"
+    "note": "8th on 1.00 points per game, goal difference -10; Dallas Surf 7th on 1.13, Lou Fusz White 9th on 0.71"
   },
   "standingsNote": "Through Sat Nov 21 · as posted on GotSport Sun Nov 22",
   "fixtures": [
@@ -751,6 +751,13 @@
       "unofficial": false
     },
     {
+      "t": "2026-11-21T11:00",
+      "home": "Lou Fusz White",
+      "away": "Heir FC",
+      "score": "3-2",
+      "unofficial": false
+    },
+    {
       "t": "2026-11-21T13:00",
       "home": "HTX",
       "away": "San Antonio City",
@@ -865,14 +872,14 @@
     {
       "pos": 9,
       "team": "Lou Fusz Athletic GA 10/11 White",
-      "mp": 16,
-      "w": 2,
+      "mp": 17,
+      "w": 3,
       "l": 11,
       "d": 3,
-      "gf": 17,
-      "ga": 55,
-      "gd": -38,
-      "ppg": "0.56"
+      "gf": 20,
+      "ga": 57,
+      "gd": -37,
+      "ppg": "0.71"
     },
     {
       "pos": 10,
@@ -889,14 +896,14 @@
     {
       "pos": 11,
       "team": "Heir FC GA 10/11",
-      "mp": 13,
+      "mp": 14,
       "w": 1,
-      "l": 9,
+      "l": 10,
       "d": 3,
-      "gf": 10,
-      "ga": 45,
-      "gd": -35,
-      "ppg": "0.46"
+      "gf": 12,
+      "ga": 48,
+      "gd": -36,
+      "ppg": "0.43"
     }
   ],
   "notes": [
@@ -950,5 +957,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-23T04:09:17Z"
+  "checked": "2026-11-23T05:09:28Z"
 }
