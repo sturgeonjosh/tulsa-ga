@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T05:09:28Z",
+  "updated": "2026-11-23T13:02:55Z",
   "team": "Tulsa Soccer Club GA 10/11",
   "record": {
     "w": 4,
@@ -12,7 +12,7 @@
     "of": 11,
     "note": "8th on 1.00 points per game, goal difference -10; Dallas Surf 7th on 1.13, Lou Fusz White 9th on 0.71"
   },
-  "standingsNote": "Through Sat Nov 21 · as posted on GotSport Sun Nov 22",
+  "standingsNote": "Through Sat Nov 21 · as posted on GotSport Mon Nov 23",
   "fixtures": [
     {
       "t": "2026-09-05T13:00",
@@ -916,27 +916,27 @@
       "source": "https://www.soccerwire.com/news/u-s-u-16-girls-national-team-roster-selected-for-october-camp-in-kansas-city/"
     },
     {
-      "text": "GA has announced its inaugural Frontier Summit for Nov 14-15 in The Woodlands, Texas. Tulsa’s two November fixtures, against HTX and HTX North, are part of it.",
-      "source": "https://girlsacademyleague.com/"
-    },
-    {
       "text": "GA has announced a Champions Cup Showcase Qualifier, dated Oct 13. Eight eligible teams in each of U15, U16 and U17 will play inside the top competition groups at Winter Showcase, with the bracket winner earning an automatic berth to the Champions Cup Showcase at the March 2027 Champions Cup Finals. Neither the Frontier Conference nor Tulsa is named in the announcement.",
       "source": "https://girlsacademyleague.com/2026/10/champions-cup-showcase-qualifier-announced/"
     },
     {
       "text": "GA opened club membership applications for the 2027-28 season on Nov 2. The announcement is league-wide and names no Frontier Conference club.",
       "source": "https://girlsacademyleague.com/"
+    },
+    {
+      "text": "GA has named Joe Nemzer as its new Sporting Director, announced in November. The announcement is league-wide and names no Frontier Conference club.",
+      "source": "https://girlsacademyleague.com/2026/11/girls-academy-announces-joe-nemzer-as-new-sporting-director/"
     }
   ],
   "notesFallback": "No goalscorers, honors or player news published this week by the club, the GA league or local press. GotSport does not post match sheets for this conference.",
   "roundup": {
-    "week": "Week of Nov 16",
+    "week": "Week of Nov 23",
     "lines": [
-      "Frontier Summit in The Woodlands: Tulsa lost 1-5 to HTX on Saturday and 0-2 to HTX North on Sunday.",
-      "Tulsa are 4-8-3 and drop from 6th to 8th of 11 on 1.00 points per game. Dallas Surf are 6th on 1.13 and HTX North moved up to 7th on 1.06.",
-      "Elsewhere at the Summit: HTX North 1-1 Oklahoma Celtic and HTX 4-2 Oklahoma Celtic. HTX are level with Lou Fusz Gold at the top on 2.63 and still unbeaten after 16.",
-      "Four games were postponed: San Antonio City and RISE SC each against Lou Fusz Gold and Lou Fusz White.",
-      "Tulsa are off until Dec 12, away to Atletico Dallas at 10:00am, then Dallas Surf on Dec 13 at 9:00am. Atletico Dallas are 4th and won 2-0 in Tulsa in September; Tulsa beat Dallas Surf 2-0 at home that same weekend."
+      "Tulsa had the weekend off. Their last games were the two Frontier Summit losses on Nov 14-15, 1-5 to HTX and 0-2 to HTX North.",
+      "Tulsa stay 8th of 11 at 4-8-3 on 1.00 points per game. Dallas Surf are 7th on 1.13 and Lou Fusz White are 9th on 0.71.",
+      "Saturday's results: HTX 2-0 San Antonio City, HTX North 7-0 away at RISE SC, and Lou Fusz White 3-2 Heir FC. HTX now lead on 2.65, just ahead of Lou Fusz Gold on 2.63, and HTX North climbed past Dallas Surf into 6th on 1.18.",
+      "Lou Fusz Gold against Heir FC was scheduled for Sunday and has no score on GotSport yet.",
+      "Next up is Atletico Dallas away on Sat Dec 12 at 10:00am, then Dallas Surf away on Sun Dec 13 at 9:00am. Atletico Dallas are 3rd on 1.81, won their last two 2-0 and 4-0, and beat Tulsa 2-0 in September."
     ]
   },
   "staff": [
@@ -957,5 +957,5 @@
       "role": "Manager"
     }
   ],
-  "checked": "2026-11-23T05:09:28Z"
+  "checked": "2026-11-23T13:02:55Z"
 }
